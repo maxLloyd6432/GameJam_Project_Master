@@ -8449,3 +8449,2026 @@ Script Stack (0 frames) :
 [2023.12.08-11.47.33:825][685]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2023.12.08-11.47.36:900][973]LogSlate: Window 'Message Log' being destroyed
 [2023.12.08-11.47.36:904][973]LogSlate: Window 'Message Log' being destroyed
+[2023.12.08-11.49.02:908][256]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2023.12.08-11.49.02:916][256]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.08-11.49.02:925][256]LogWorldPartition: Display: GenerateStreaming started...
+[2023.12.08-11.49.02:925][256]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.12.08-11.49.02:925][256]LogWorldPartition: Display: GetPartitionedActors took 21 us (total: 144 us)
+[2023.12.08-11.49.02:927][256]LogWorldPartition: Display: GenerateStreaming took 1 ms (total: 7 ms)
+[2023.12.08-11.49.02:927][256]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.08-11.49.02:927][256]PIE: New page: PIE session: ThirdPersonMap (8 Dec 2023, 11:49:02)
+[2023.12.08-11.49.02:927][256]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.08-11.49.03:007][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080875s)
+[2023.12.08-11.49.03:007][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.080904s)
+[2023.12.08-11.49.03:007][256]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-11.49.03:007][256]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.08-11.49.03:008][256]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.12.08-11.49.03:009][256]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.08-11.49.03:009][256]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.08-11.49.03:009][256]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.12.08-11.49.03:028][256]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.12.08-11.49.03:028][256]LogWorldPartition: Display: WorldPartition initialize took 18 ms (total: 1.33 sec)
+[2023.12.08-11.49.03:028][256]LogPlayLevel: PIE: World Init took: (0.020562s)
+[2023.12.08-11.49.03:050][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.12.08-11.49.03:051][256]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.12.08-11.49.03:051][256]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.08-11.49.03:051][256]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.08-11.49.03:051][256]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.08-11.49.03:051][256]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.08-11.49.03:051][256]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.08-11.49.03:051][256]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.08-11.49.03:051][256]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.08-11.49.03:051][256]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.08-11.49.03:052][256]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.08-11.49.03:052][256]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.08-11.49.03:052][256]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.08-11.49.03:054][256]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.08-11.49.03:085][256]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer BlackShark V2 HS 2.4)
+[2023.12.08-11.49.03:086][256]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.08-11.49.03:086][256]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.08-11.49.03:086][256]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.08-11.49.03:086][256]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.12.08-11.49.03:086][256]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.12.08-11.49.03:088][256]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.12.08-11.49.03:088][256]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.12.08-11.49.03:088][256]LogInit: FAudioDevice initialized with ID 6.
+[2023.12.08-11.49.03:088][256]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonMap'.
+[2023.12.08-11.49.03:088][256]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.12.08-11.49.03:141][256]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.08-11.49.03:141][256]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.12.08-11.49.03:186][256]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.12.08-11.49.03
+[2023.12.08-11.49.03:189][256]LogWorld: Bringing up level for play took: 0.047791
+[2023.12.08-11.49.03:191][256]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.12.08-11.49.03:198][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24045.776 Y=-128255.776 Z=0.000] for [BP_Fish_04_C]
+[2023.12.08-11.49.03:198][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26302.881 Y=-121862.022 Z=0.000] for [BP_Turtle_01_C]
+[2023.12.08-11.49.03:202][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27850.754 Y=-120200.754 Z=0.000] for [BP_Fish_03_C]
+[2023.12.08-11.49.03:203][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27627.537 Y=-121377.537 Z=0.000] for [BP_Turtle_02_C]
+[2023.12.08-11.49.03:205][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-28422.325 Y=-125907.473 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:208][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27625.932 Y=-125125.932 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:209][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25621.942 Y=-124793.449 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:210][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24024.441 Y=-129214.441 Z=0.000] for [BP_Fish_03_C]
+[2023.12.08-11.49.03:213][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27407.548 Y=-125226.305 Z=0.000] for [BP_Fish_05_C]
+[2023.12.08-11.49.03:213][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24495.617 Y=-119845.617 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:214][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26318.256 Y=-121427.397 Z=0.000] for [BP_Turtle_02_C]
+[2023.12.08-11.49.03:214][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27739.164 Y=-119189.164 Z=0.000] for [BP_Turtle_02_C]
+[2023.12.08-11.49.03:218][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25502.229 Y=-118193.736 Z=0.000] for [BP_Turtle_02_C]
+[2023.12.08-11.49.03:220][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-23912.883 Y=-120632.883 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:221][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27303.272 Y=-120923.272 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:221][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27341.160 Y=-127329.391 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:222][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-28181.831 Y=-122203.267 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:223][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26223.812 Y=-125113.812 Z=0.000] for [BP_Turtle_02_C]
+[2023.12.08-11.49.03:224][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-23901.941 Y=-121071.941 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:226][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-28105.343 Y=-120334.484 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:226][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-28467.721 Y=-121706.862 Z=0.000] for [BP_Turtle_01_C]
+[2023.12.08-11.49.03:228][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-28677.161 Y=-123002.308 Z=0.000] for [BP_Turtle_01_C]
+[2023.12.08-11.49.03:228][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24609.399 Y=-122429.610 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:229][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27159.284 Y=-129619.284 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:229][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26089.989 Y=-127460.200 Z=0.000] for [BP_Turtle_02_C]
+[2023.12.08-11.49.03:230][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25030.857 Y=-119051.069 Z=0.000] for [BP_Fish_03_C]
+[2023.12.08-11.49.03:231][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24487.875 Y=-116737.875 Z=50.000] for [BP_Fish_05_C]
+[2023.12.08-11.49.03:231][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25874.309 Y=-122614.309 Z=0.000] for [BP_Turtle_02_C]
+[2023.12.08-11.49.03:231][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25419.609 Y=-129219.609 Z=0.000] for [BP_Turtle_01_C]
+[2023.12.08-11.49.03:232][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26072.368 Y=-120392.368 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:233][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25439.961 Y=-128259.961 Z=0.000] for [BP_Fish_04_C]
+[2023.12.08-11.49.03:233][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26089.512 Y=-121389.512 Z=0.000] for [BP_Fish_03_C]
+[2023.12.08-11.49.03:237][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25716.149 Y=-121926.149 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:238][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26619.315 Y=-127304.463 Z=0.000] for [BP_Turtle_02_C]
+[2023.12.08-11.49.03:241][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27173.229 Y=-128093.229 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:242][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25781.889 Y=-128091.889 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:245][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26995.404 Y=-127074.160 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:245][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-28005.302 Y=-121483.533 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:246][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26032.513 Y=-125241.270 Z=0.000] for [BP_Fish_05_C]
+[2023.12.08-11.49.03:247][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26511.305 Y=-118781.305 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:248][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26770.395 Y=-122720.606 Z=0.000] for [BP_Fish_03_C]
+[2023.12.08-11.49.03:253][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25094.538 Y=-121586.044 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:258][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24593.895 Y=-126423.895 Z=0.000] for [BP_Turtle_02_C]
+[2023.12.08-11.49.03:258][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26113.735 Y=-118523.735 Z=0.000] for [BP_Turtle_02_C]
+[2023.12.08-11.49.03:258][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26403.163 Y=-126403.163 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:260][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25276.327 Y=-126886.327 Z=0.000] for [BP_Fish_04_C]
+[2023.12.08-11.49.03:261][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-28873.744 Y=-120302.885 Z=0.000] for [BP_Fish_04_C]
+[2023.12.08-11.49.03:263][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-28090.861 Y=-122310.002 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:263][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27192.781 Y=-126952.781 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:263][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25401.511 Y=-127661.511 Z=0.000] for [BP_Fish_04_C]
+[2023.12.08-11.49.03:263][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26956.223 Y=-129206.223 Z=0.000] for [BP_Fish_03_C]
+[2023.12.08-11.49.03:264][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26122.258 Y=-128493.694 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:265][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25897.921 Y=-119257.921 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:265][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26045.460 Y=-127074.602 Z=0.000] for [BP_Turtle_02_C]
+[2023.12.08-11.49.03:266][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25682.050 Y=-125482.050 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:272][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24023.801 Y=-127223.801 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:272][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-23914.782 Y=-120314.782 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:274][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-28670.472 Y=-121005.619 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:277][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-23902.546 Y=-122612.546 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:277][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25572.449 Y=-129212.449 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:277][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26091.874 Y=-129002.085 Z=0.000] for [BP_Fish_04_C]
+[2023.12.08-11.49.03:278][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25968.558 Y=-127796.789 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:278][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-28003.074 Y=-123021.305 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:280][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24993.007 Y=-126673.007 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:283][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27388.829 Y=-128258.829 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:285][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27425.397 Y=-128604.538 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:288][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27389.520 Y=-125839.520 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:291][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26656.882 Y=-127236.882 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:291][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26603.083 Y=-127738.231 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:291][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27435.492 Y=-126624.634 Z=0.000] for [BP_Fish_05_C]
+[2023.12.08-11.49.03:291][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25859.984 Y=-125089.984 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:293][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25836.172 Y=-125836.172 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:295][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25990.151 Y=-128420.151 Z=0.000] for [BP_Turtle_01_C]
+[2023.12.08-11.49.03:296][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25195.270 Y=-126626.776 Z=0.000] for [BP_Fish_05_C]
+[2023.12.08-11.49.03:297][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24992.210 Y=-126222.210 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:298][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25285.302 Y=-118225.302 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:299][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-28109.596 Y=-120788.737 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:299][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26033.392 Y=-126612.534 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:299][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25862.074 Y=-123182.074 Z=0.000] for [BP_Fish_04_C]
+[2023.12.08-11.49.03:300][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27003.719 Y=-126632.475 Z=0.000] for [BP_Turtle_01_C]
+[2023.12.08-11.49.03:301][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-23916.036 Y=-120106.036 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:301][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25839.718 Y=-121187.949 Z=0.000] for [BP_Fish_03_C]
+[2023.12.08-11.49.03:302][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25660.504 Y=-125820.504 Z=0.000] for [BP_Turtle_02_C]
+[2023.12.08-11.49.03:302][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24041.913 Y=-126471.913 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:303][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25650.012 Y=-121480.012 Z=0.000] for [BP_Fish_04_C]
+[2023.12.08-11.49.03:308][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24597.839 Y=-120878.050 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:309][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24589.649 Y=-120419.861 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:310][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26827.863 Y=-126607.004 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:310][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26504.706 Y=-120709.853 Z=0.000] for [BP_Fish_03_C]
+[2023.12.08-11.49.03:310][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26479.177 Y=-126807.548 Z=0.000] for [BP_Fish_04_C]
+[2023.12.08-11.49.03:311][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25611.915 Y=-128620.672 Z=0.000] for [BP_Fish_03_C]
+[2023.12.08-11.49.03:311][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24019.082 Y=-127669.082 Z=0.000] for [BP_Fish_03_C]
+[2023.12.08-11.49.03:311][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27344.660 Y=-129322.891 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:312][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-28663.004 Y=-121448.152 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:314][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27383.521 Y=-129793.521 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:314][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27005.685 Y=-128624.441 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:318][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27995.861 Y=-121024.092 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:320][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25000.310 Y=-119788.681 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:320][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26408.258 Y=-127997.400 Z=0.000] for [BP_Turtle_02_C]
+[2023.12.08-11.49.03:323][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25471.837 Y=-122631.837 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:328][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25924.393 Y=-122013.534 Z=0.000] for [BP_Fish_03_C]
+[2023.12.08-11.49.03:329][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-28522.331 Y=-118941.472 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:332][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27991.599 Y=-127736.747 Z=0.000] for [BP_Turtle_02_C]
+[2023.12.08-11.49.03:334][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25769.762 Y=-127629.762 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:335][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25962.509 Y=-129330.740 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:336][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27813.421 Y=-121773.421 Z=0.000] for [BP_Fish_03_C]
+[2023.12.08-11.49.03:339][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26745.588 Y=-120705.799 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:339][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24495.421 Y=-120295.421 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:339][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25996.689 Y=-129216.689 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:341][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26500.104 Y=-126378.475 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:341][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27860.235 Y=-122200.235 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:342][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27372.403 Y=-129202.403 Z=0.000] for [BP_Fish_03_C]
+[2023.12.08-11.49.03:342][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27851.352 Y=-120651.352 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:343][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27315.849 Y=-122925.849 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:346][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26104.725 Y=-127024.936 Z=0.000] for [BP_Fish_04_C]
+[2023.12.08-11.49.03:346][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24025.330 Y=-126695.330 Z=0.000] for [BP_Turtle_01_C]
+[2023.12.08-11.49.03:347][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-28479.659 Y=-123708.800 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:347][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26383.366 Y=-126673.366 Z=0.000] for [BP_Fish_03_C]
+[2023.12.08-11.49.03:349][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25950.398 Y=-127328.629 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:353][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27927.818 Y=-127099.254 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:357][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24452.079 Y=-125072.079 Z=0.000] for [BP_Turtle_01_C]
+[2023.12.08-11.49.03:357][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26595.492 Y=-126636.998 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:357][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25993.900 Y=-129793.900 Z=0.000] for [BP_Turtle_02_C]
+[2023.12.08-11.49.03:359][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25803.385 Y=-128493.385 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:359][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27346.215 Y=-127784.446 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:359][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25576.854 Y=-127226.854 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:364][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24881.854 Y=-121621.854 Z=0.000] for [BP_Fish_03_C]
+[2023.12.08-11.49.03:364][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25576.094 Y=-118896.094 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:365][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26902.523 Y=-124970.895 Z=0.000] for [BP_Fish_04_C]
+[2023.12.08-11.49.03:365][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24594.581 Y=-128414.581 Z=0.000] for [BP_Fish_05_C]
+[2023.12.08-11.49.03:366][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25194.431 Y=-128165.938 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:366][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-28022.120 Y=-123472.120 Z=0.000] for [BP_Fish_03_C]
+[2023.12.08-11.49.03:368][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27851.004 Y=-125230.146 Z=0.000] for [BP_Fish_04_C]
+[2023.12.08-11.49.03:369][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27671.817 Y=-118493.323 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:370][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27621.270 Y=-122911.270 Z=0.000] for [BP_Fish_05_C]
+[2023.12.08-11.49.03:370][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25107.824 Y=-119609.330 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:371][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-26646.176 Y=-129216.176 Z=0.000] for [BP_Turtle_01_C]
+[2023.12.08-11.49.03:373][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25833.086 Y=-124853.086 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:375][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-25428.422 Y=-126708.422 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:377][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-27438.936 Y=-127078.077 Z=0.000] for [BP_Duck_C]
+[2023.12.08-11.49.03:377][256]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-24872.893 Y=-119622.893 Z=0.000] for [BP_Fish_01_C]
+[2023.12.08-11.49.03:380][256]PIE: Server logged in
+[2023.12.08-11.49.03:381][256]PIE: Play in editor total start time 0.465 seconds.
+[2023.12.08-11.49.03:405][256]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:405][256]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:406][256]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:406][256]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:406][256]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:407][256]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:407][256]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:407][256]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:408][256]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:408][256]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:408][256]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:409][256]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:410][256]LogViewport: Scene viewport resized to 1920x1006, mode Windowed.
+[2023.12.08-11.49.03:526][257]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:527][257]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:527][257]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:527][257]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:528][257]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:528][257]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:528][257]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:529][257]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:529][257]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:529][257]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:529][257]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:530][257]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.03:548][258]LogBlueprintUserMessages: [WB_GameUI_C_0] 60.0
+[2023.12.08-11.49.03:579][259]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.897783
+[2023.12.08-11.49.03:595][260]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.863512
+[2023.12.08-11.49.03:607][261]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.848767
+[2023.12.08-11.49.03:720][262]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.83351
+[2023.12.08-11.49.03:732][263]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.795537
+[2023.12.08-11.49.03:745][264]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.70903
+[2023.12.08-11.49.03:758][265]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.696758
+[2023.12.08-11.49.03:771][266]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.68415
+[2023.12.08-11.49.03:784][267]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.670924
+[2023.12.08-11.49.03:797][268]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.658164
+[2023.12.08-11.49.03:816][269]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.645471
+[2023.12.08-11.49.03:827][270]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.632532
+[2023.12.08-11.49.03:840][271]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.6133
+[2023.12.08-11.49.03:853][272]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.601006
+[2023.12.08-11.49.03:865][273]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.588015
+[2023.12.08-11.49.03:878][274]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.57542
+[2023.12.08-11.49.03:893][275]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.563459
+[2023.12.08-11.49.03:908][276]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.550013
+[2023.12.08-11.49.03:921][277]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.53523
+[2023.12.08-11.49.03:936][278]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.520644
+[2023.12.08-11.49.03:949][279]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.50716
+[2023.12.08-11.49.03:962][280]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.491827
+[2023.12.08-11.49.03:975][281]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.479594
+[2023.12.08-11.49.03:989][282]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.466962
+[2023.12.08-11.49.04:002][283]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.453702
+[2023.12.08-11.49.04:018][284]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.439457
+[2023.12.08-11.49.04:030][285]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.426209
+[2023.12.08-11.49.04:045][286]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.411118
+[2023.12.08-11.49.04:058][287]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.39901
+[2023.12.08-11.49.04:074][288]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.383919
+[2023.12.08-11.49.04:087][289]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.370481
+[2023.12.08-11.49.04:100][290]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.354919
+[2023.12.08-11.49.04:115][291]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.34186
+[2023.12.08-11.49.04:128][292]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.328081
+[2023.12.08-11.49.04:142][293]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.313643
+[2023.12.08-11.49.04:157][294]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.300459
+[2023.12.08-11.49.04:170][295]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.286434
+[2023.12.08-11.49.04:182][296]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.271849
+[2023.12.08-11.49.04:195][297]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.258959
+[2023.12.08-11.49.04:207][298]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.246377
+[2023.12.08-11.49.04:219][299]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.233429
+[2023.12.08-11.49.04:231][300]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.221442
+[2023.12.08-11.49.04:243][301]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.210043
+[2023.12.08-11.49.04:255][302]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.198212
+[2023.12.08-11.49.04:267][303]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.185518
+[2023.12.08-11.49.04:279][304]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.173892
+[2023.12.08-11.49.04:291][305]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.162273
+[2023.12.08-11.49.04:302][306]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.150336
+[2023.12.08-11.49.04:314][307]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.138483
+[2023.12.08-11.49.04:326][308]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.126716
+[2023.12.08-11.49.04:338][309]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.115107
+[2023.12.08-11.49.04:350][310]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.103146
+[2023.12.08-11.49.04:362][311]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.090382
+[2023.12.08-11.49.04:374][312]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.078339
+[2023.12.08-11.49.04:386][313]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.066648
+[2023.12.08-11.49.04:398][314]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.054397
+[2023.12.08-11.49.04:410][315]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.042371
+[2023.12.08-11.49.04:423][316]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.030416
+[2023.12.08-11.49.04:436][317]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.017823
+[2023.12.08-11.49.04:448][318]LogBlueprintUserMessages: [WB_GameUI_C_0] 59.005367
+[2023.12.08-11.49.04:460][319]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.992618
+[2023.12.08-11.49.04:473][320]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.980663
+[2023.12.08-11.49.04:488][321]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.968627
+[2023.12.08-11.49.04:499][322]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.955616
+[2023.12.08-11.49.04:512][323]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.939725
+[2023.12.08-11.49.04:522][324]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.929076
+[2023.12.08-11.49.04:532][325]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.916481
+[2023.12.08-11.49.04:542][326]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.905838
+[2023.12.08-11.49.04:552][327]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.896039
+[2023.12.08-11.49.04:562][328]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.886007
+[2023.12.08-11.49.04:573][329]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.876348
+[2023.12.08-11.49.04:582][330]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.866229
+[2023.12.08-11.49.04:592][331]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.85551
+[2023.12.08-11.49.04:602][332]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.8461
+[2023.12.08-11.49.04:614][333]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.835926
+[2023.12.08-11.49.04:624][334]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.826041
+[2023.12.08-11.49.04:633][335]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.814152
+[2023.12.08-11.49.04:643][336]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.804725
+[2023.12.08-11.49.04:653][337]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.795362
+[2023.12.08-11.49.04:663][338]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.785168
+[2023.12.08-11.49.04:673][339]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.775459
+[2023.12.08-11.49.04:682][340]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.765436
+[2023.12.08-11.49.04:695][341]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.755955
+[2023.12.08-11.49.04:705][342]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.746269
+[2023.12.08-11.49.04:714][343]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.733727
+[2023.12.08-11.49.04:723][344]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.724107
+[2023.12.08-11.49.04:733][345]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.714752
+[2023.12.08-11.49.04:743][346]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.704848
+[2023.12.08-11.49.04:753][347]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.695146
+[2023.12.08-11.49.04:763][348]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.684938
+[2023.12.08-11.49.04:774][349]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.674628
+[2023.12.08-11.49.04:784][350]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.664857
+[2023.12.08-11.49.04:794][351]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.654122
+[2023.12.08-11.49.04:807][352]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.644279
+[2023.12.08-11.49.04:818][353]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.633994
+[2023.12.08-11.49.04:829][354]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.621515
+[2023.12.08-11.49.04:840][355]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.611132
+[2023.12.08-11.49.04:851][356]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.599425
+[2023.12.08-11.49.04:862][357]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.587595
+[2023.12.08-11.49.04:875][358]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.577393
+[2023.12.08-11.49.04:888][359]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.566397
+[2023.12.08-11.49.04:898][360]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.553872
+[2023.12.08-11.49.04:908][361]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.540688
+[2023.12.08-11.49.04:920][362]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.531057
+[2023.12.08-11.49.04:931][363]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.51974
+[2023.12.08-11.49.04:942][364]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.50825
+[2023.12.08-11.49.04:953][365]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.498048
+[2023.12.08-11.49.04:965][366]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.486215
+[2023.12.08-11.49.04:975][367]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.475095
+[2023.12.08-11.49.04:991][368]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.463265
+[2023.12.08-11.49.05:001][369]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.45086
+[2023.12.08-11.49.05:013][370]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.437257
+[2023.12.08-11.49.05:025][371]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.426781
+[2023.12.08-11.49.05:037][372]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.415029
+[2023.12.08-11.49.05:047][373]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.40378
+[2023.12.08-11.49.05:057][374]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.391552
+[2023.12.08-11.49.05:069][375]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.381206
+[2023.12.08-11.49.05:080][376]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.370659
+[2023.12.08-11.49.05:090][377]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.359232
+[2023.12.08-11.49.05:104][378]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.348096
+[2023.12.08-11.49.05:114][379]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.336147
+[2023.12.08-11.49.05:124][380]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.324809
+[2023.12.08-11.49.05:138][381]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.31433
+[2023.12.08-11.49.05:149][382]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.302998
+[2023.12.08-11.49.05:160][383]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.290186
+[2023.12.08-11.49.05:171][384]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.279371
+[2023.12.08-11.49.05:181][385]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.268885
+[2023.12.08-11.49.05:191][386]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.258171
+[2023.12.08-11.49.05:200][387]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.248219
+[2023.12.08-11.49.05:211][388]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.237769
+[2023.12.08-11.49.05:222][389]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.22759
+[2023.12.08-11.49.05:231][390]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.217052
+[2023.12.08-11.49.05:241][391]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.206746
+[2023.12.08-11.49.05:252][392]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.19695
+[2023.12.08-11.49.05:262][393]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.186329
+[2023.12.08-11.49.05:272][394]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.176387
+[2023.12.08-11.49.05:281][395]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.166534
+[2023.12.08-11.49.05:292][396]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.156532
+[2023.12.08-11.49.05:301][397]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.146556
+[2023.12.08-11.49.05:312][398]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.136446
+[2023.12.08-11.49.05:322][399]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.126945
+[2023.12.08-11.49.05:331][400]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.116789
+[2023.12.08-11.49.05:342][401]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.106445
+[2023.12.08-11.49.05:353][402]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.096773
+[2023.12.08-11.49.05:363][403]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.086173
+[2023.12.08-11.49.05:375][404]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.075007
+[2023.12.08-11.49.05:386][405]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.065081
+[2023.12.08-11.49.05:395][406]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.053425
+[2023.12.08-11.49.05:405][407]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.042893
+[2023.12.08-11.49.05:416][408]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.032976
+[2023.12.08-11.49.05:426][409]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.022644
+[2023.12.08-11.49.05:436][410]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.012415
+[2023.12.08-11.49.05:447][411]LogBlueprintUserMessages: [WB_GameUI_C_0] 58.002228
+[2023.12.08-11.49.05:457][412]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.991092
+[2023.12.08-11.49.05:467][413]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.981284
+[2023.12.08-11.49.05:477][414]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.971156
+[2023.12.08-11.49.05:483][415]LogBlueprintUserMessages: [BP_Player_C_0] CooldownOver
+[2023.12.08-11.49.05:488][415]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.96153
+[2023.12.08-11.49.05:500][416]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.950548
+[2023.12.08-11.49.05:510][417]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.940535
+[2023.12.08-11.49.05:520][418]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.92845
+[2023.12.08-11.49.05:531][419]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.918224
+[2023.12.08-11.49.05:541][420]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.908203
+[2023.12.08-11.49.05:551][421]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.8975
+[2023.12.08-11.49.05:561][422]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.887033
+[2023.12.08-11.49.05:573][423]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.877043
+[2023.12.08-11.49.05:582][424]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.867073
+[2023.12.08-11.49.05:592][425]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.855954
+[2023.12.08-11.49.05:603][426]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.846382
+[2023.12.08-11.49.05:615][427]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.836154
+[2023.12.08-11.49.05:625][428]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.825639
+[2023.12.08-11.49.05:636][429]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.813625
+[2023.12.08-11.49.05:646][430]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.803389
+[2023.12.08-11.49.05:656][431]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.793007
+[2023.12.08-11.49.05:666][432]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.782712
+[2023.12.08-11.49.05:677][433]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.771991
+[2023.12.08-11.49.05:687][434]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.762101
+[2023.12.08-11.49.05:698][435]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.751676
+[2023.12.08-11.49.05:708][436]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.741631
+[2023.12.08-11.49.05:718][437]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.73121
+[2023.12.08-11.49.05:728][438]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.720664
+[2023.12.08-11.49.05:739][439]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.710707
+[2023.12.08-11.49.05:749][440]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.699914
+[2023.12.08-11.49.05:759][441]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.689368
+[2023.12.08-11.49.05:769][442]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.679368
+[2023.12.08-11.49.05:780][443]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.668708
+[2023.12.08-11.49.05:791][444]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.658643
+[2023.12.08-11.49.05:801][445]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.648142
+[2023.12.08-11.49.05:813][446]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.638208
+[2023.12.08-11.49.05:822][447]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.627281
+[2023.12.08-11.49.05:832][448]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.616153
+[2023.12.08-11.49.05:845][449]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.605722
+[2023.12.08-11.49.05:855][450]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.594256
+[2023.12.08-11.49.05:867][451]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.582435
+[2023.12.08-11.49.05:880][452]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.571906
+[2023.12.08-11.49.05:891][453]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.560446
+[2023.12.08-11.49.05:900][454]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.548431
+[2023.12.08-11.49.05:912][455]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.537425
+[2023.12.08-11.49.05:923][456]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.52743
+[2023.12.08-11.49.05:935][457]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.515914
+[2023.12.08-11.49.05:946][458]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.504609
+[2023.12.08-11.49.05:959][459]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.492516
+[2023.12.08-11.49.05:971][460]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.480411
+[2023.12.08-11.49.05:981][461]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.469703
+[2023.12.08-11.49.05:992][462]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.457527
+[2023.12.08-11.49.06:005][463]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.44696
+[2023.12.08-11.49.06:016][464]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.436202
+[2023.12.08-11.49.06:030][465]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.422885
+[2023.12.08-11.49.06:041][466]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.411191
+[2023.12.08-11.49.06:054][467]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.398821
+[2023.12.08-11.49.06:067][468]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.387304
+[2023.12.08-11.49.06:080][469]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.374715
+[2023.12.08-11.49.06:093][470]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.361508
+[2023.12.08-11.49.06:103][471]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.348772
+[2023.12.08-11.49.06:114][472]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.335676
+[2023.12.08-11.49.06:126][473]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.325623
+[2023.12.08-11.49.06:138][474]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.313067
+[2023.12.08-11.49.06:150][475]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.302222
+[2023.12.08-11.49.06:162][476]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.289968
+[2023.12.08-11.49.06:172][477]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.277745
+[2023.12.08-11.49.06:182][478]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.26716
+[2023.12.08-11.49.06:192][479]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.256529
+[2023.12.08-11.49.06:202][480]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.246071
+[2023.12.08-11.49.06:213][481]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.235832
+[2023.12.08-11.49.06:223][482]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.225756
+[2023.12.08-11.49.06:233][483]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.215666
+[2023.12.08-11.49.06:243][484]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.205633
+[2023.12.08-11.49.06:254][485]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.195565
+[2023.12.08-11.49.06:265][486]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.18462
+[2023.12.08-11.49.06:275][487]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.174236
+[2023.12.08-11.49.06:286][488]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.16364
+[2023.12.08-11.49.06:296][489]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.152882
+[2023.12.08-11.49.06:306][490]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.142687
+[2023.12.08-11.49.06:317][491]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.132483
+[2023.12.08-11.49.06:327][492]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.121769
+[2023.12.08-11.49.06:337][493]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.111653
+[2023.12.08-11.49.06:348][494]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.101483
+[2023.12.08-11.49.06:358][495]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.091232
+[2023.12.08-11.49.06:368][496]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.080572
+[2023.12.08-11.49.06:379][497]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.070295
+[2023.12.08-11.49.06:392][498]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.060273
+[2023.12.08-11.49.06:406][499]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.049774
+[2023.12.08-11.49.06:420][500]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.036063
+[2023.12.08-11.49.06:433][501]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.0216
+[2023.12.08-11.49.06:446][502]LogBlueprintUserMessages: [WB_GameUI_C_0] 57.008932
+[2023.12.08-11.49.06:457][503]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.995567
+[2023.12.08-11.49.06:468][504]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.982054
+[2023.12.08-11.49.06:478][505]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.971454
+[2023.12.08-11.49.06:488][506]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.961162
+[2023.12.08-11.49.06:498][507]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.950662
+[2023.12.08-11.49.06:508][508]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.940718
+[2023.12.08-11.49.06:518][509]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.930611
+[2023.12.08-11.49.06:529][510]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.920325
+[2023.12.08-11.49.06:540][511]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.91017
+[2023.12.08-11.49.06:551][512]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.898856
+[2023.12.08-11.49.06:561][513]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.888229
+[2023.12.08-11.49.06:572][514]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.87788
+[2023.12.08-11.49.06:582][515]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.867718
+[2023.12.08-11.49.06:592][516]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.856981
+[2023.12.08-11.49.06:602][517]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.846616
+[2023.12.08-11.49.06:613][518]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.836171
+[2023.12.08-11.49.06:623][519]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.825553
+[2023.12.08-11.49.06:633][520]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.815237
+[2023.12.08-11.49.06:644][521]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.805314
+[2023.12.08-11.49.06:655][522]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.794741
+[2023.12.08-11.49.06:665][523]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.783626
+[2023.12.08-11.49.06:676][524]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.773313
+[2023.12.08-11.49.06:687][525]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.762621
+[2023.12.08-11.49.06:697][526]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.751643
+[2023.12.08-11.49.06:708][527]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.741361
+[2023.12.08-11.49.06:718][528]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.730989
+[2023.12.08-11.49.06:732][529]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.720571
+[2023.12.08-11.49.06:742][530]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.707883
+[2023.12.08-11.49.06:752][531]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.697146
+[2023.12.08-11.49.06:762][532]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.686891
+[2023.12.08-11.49.06:772][533]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.677011
+[2023.12.08-11.49.06:783][534]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.666669
+[2023.12.08-11.49.06:794][535]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.656579
+[2023.12.08-11.49.06:807][536]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.645645
+[2023.12.08-11.49.06:818][537]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.634999
+[2023.12.08-11.49.06:830][538]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.622028
+[2023.12.08-11.49.06:842][539]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.61037
+[2023.12.08-11.49.06:852][540]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.599084
+[2023.12.08-11.49.06:866][541]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.586838
+[2023.12.08-11.49.06:879][542]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.573253
+[2023.12.08-11.49.06:892][543]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.562087
+[2023.12.08-11.49.06:902][544]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.549507
+[2023.12.08-11.49.06:915][545]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.536797
+[2023.12.08-11.49.06:927][546]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.526529
+[2023.12.08-11.49.06:938][547]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.513236
+[2023.12.08-11.49.06:949][548]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.501244
+[2023.12.08-11.49.06:961][549]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.490323
+[2023.12.08-11.49.06:975][550]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.478201
+[2023.12.08-11.49.06:989][551]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.46561
+[2023.12.08-11.49.07:000][552]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.452694
+[2023.12.08-11.49.07:012][553]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.43933
+[2023.12.08-11.49.07:024][554]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.428357
+[2023.12.08-11.49.07:035][555]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.416894
+[2023.12.08-11.49.07:052][556]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.405576
+[2023.12.08-11.49.07:069][557]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.393538
+[2023.12.08-11.49.07:085][558]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.376388
+[2023.12.08-11.49.07:100][559]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.358422
+[2023.12.08-11.49.07:114][560]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.343599
+[2023.12.08-11.49.07:124][561]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.327532
+[2023.12.08-11.49.07:134][562]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.314953
+[2023.12.08-11.49.07:149][563]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.305012
+[2023.12.08-11.49.07:161][564]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.293384
+[2023.12.08-11.49.07:174][565]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.280282
+[2023.12.08-11.49.07:184][566]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.266965
+[2023.12.08-11.49.07:195][567]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.2554
+[2023.12.08-11.49.07:204][568]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.244617
+[2023.12.08-11.49.07:215][569]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.234111
+[2023.12.08-11.49.07:225][570]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.223738
+[2023.12.08-11.49.07:240][571]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.213548
+[2023.12.08-11.49.07:254][572]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.201869
+[2023.12.08-11.49.07:268][573]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.187251
+[2023.12.08-11.49.07:284][574]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.173893
+[2023.12.08-11.49.07:295][575]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.156908
+[2023.12.08-11.49.07:306][576]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.144246
+[2023.12.08-11.49.07:315][577]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.133621
+[2023.12.08-11.49.07:326][578]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.122751
+[2023.12.08-11.49.07:335][579]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.112544
+[2023.12.08-11.49.07:347][580]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.1026
+[2023.12.08-11.49.07:360][581]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.092357
+[2023.12.08-11.49.07:370][582]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.08093
+[2023.12.08-11.49.07:383][583]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.068426
+[2023.12.08-11.49.07:395][584]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.055665
+[2023.12.08-11.49.07:407][585]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.044564
+[2023.12.08-11.49.07:417][586]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.033067
+[2023.12.08-11.49.07:428][587]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.021261
+[2023.12.08-11.49.07:441][588]LogBlueprintUserMessages: [WB_GameUI_C_0] 56.010541
+[2023.12.08-11.49.07:453][589]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.998609
+[2023.12.08-11.49.07:463][590]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.987234
+[2023.12.08-11.49.07:474][591]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.975009
+[2023.12.08-11.49.07:485][592]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.964525
+[2023.12.08-11.49.07:496][593]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.953392
+[2023.12.08-11.49.07:507][594]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.942562
+[2023.12.08-11.49.07:518][595]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.932104
+[2023.12.08-11.49.07:528][596]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.921103
+[2023.12.08-11.49.07:539][597]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.910734
+[2023.12.08-11.49.07:550][598]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.900197
+[2023.12.08-11.49.07:562][599]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.888755
+[2023.12.08-11.49.07:573][600]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.877346
+[2023.12.08-11.49.07:585][601]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.866425
+[2023.12.08-11.49.07:595][602]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.855249
+[2023.12.08-11.49.07:605][603]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.843779
+[2023.12.08-11.49.07:615][604]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.833892
+[2023.12.08-11.49.07:627][605]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.823665
+[2023.12.08-11.49.07:639][606]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.813228
+[2023.12.08-11.49.07:651][607]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.801764
+[2023.12.08-11.49.07:661][608]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.788747
+[2023.12.08-11.49.07:671][609]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.778027
+[2023.12.08-11.49.07:682][610]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.767978
+[2023.12.08-11.49.07:691][611]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.757638
+[2023.12.08-11.49.07:706][612]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.747378
+[2023.12.08-11.49.07:719][613]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.737731
+[2023.12.08-11.49.07:731][614]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.722955
+[2023.12.08-11.49.07:742][615]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.710151
+[2023.12.08-11.49.07:753][616]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.697999
+[2023.12.08-11.49.07:762][617]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.685972
+[2023.12.08-11.49.07:773][618]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.67539
+[2023.12.08-11.49.07:783][619]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.66557
+[2023.12.08-11.49.07:794][620]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.654578
+[2023.12.08-11.49.07:805][621]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.643734
+[2023.12.08-11.49.07:815][622]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.633427
+[2023.12.08-11.49.07:826][623]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.623091
+[2023.12.08-11.49.07:836][624]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.612553
+[2023.12.08-11.49.07:849][625]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.602466
+[2023.12.08-11.49.07:859][626]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.589879
+[2023.12.08-11.49.07:872][627]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.578434
+[2023.12.08-11.49.07:883][628]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.568127
+[2023.12.08-11.49.07:897][629]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.556396
+[2023.12.08-11.49.07:909][630]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.542262
+[2023.12.08-11.49.07:922][631]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.529799
+[2023.12.08-11.49.07:932][632]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.519489
+[2023.12.08-11.49.07:943][633]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.506925
+[2023.12.08-11.49.07:955][634]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.496591
+[2023.12.08-11.49.07:967][635]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.484085
+[2023.12.08-11.49.07:979][636]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.472061
+[2023.12.08-11.49.07:990][637]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.460246
+[2023.12.08-11.49.08:002][638]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.448793
+[2023.12.08-11.49.08:013][639]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.437627
+[2023.12.08-11.49.08:025][640]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.426548
+[2023.12.08-11.49.08:037][641]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.414733
+[2023.12.08-11.49.08:049][642]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.403433
+[2023.12.08-11.49.08:059][643]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.391504
+[2023.12.08-11.49.08:071][644]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.379487
+[2023.12.08-11.49.08:083][645]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.369195
+[2023.12.08-11.49.08:094][646]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.357522
+[2023.12.08-11.49.08:106][647]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.34547
+[2023.12.08-11.49.08:116][648]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.334743
+[2023.12.08-11.49.08:126][649]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.322322
+[2023.12.08-11.49.08:137][650]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.311505
+[2023.12.08-11.49.08:149][651]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.301912
+[2023.12.08-11.49.08:159][652]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.291118
+[2023.12.08-11.49.08:172][653]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.278823
+[2023.12.08-11.49.08:182][654]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.268027
+[2023.12.08-11.49.08:193][655]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.256321
+[2023.12.08-11.49.08:204][656]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.244996
+[2023.12.08-11.49.08:214][657]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.234805
+[2023.12.08-11.49.08:224][658]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.224416
+[2023.12.08-11.49.08:234][659]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.213972
+[2023.12.08-11.49.08:245][660]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.204109
+[2023.12.08-11.49.08:255][661]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.193553
+[2023.12.08-11.49.08:265][662]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.182996
+[2023.12.08-11.49.08:275][663]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.172937
+[2023.12.08-11.49.08:285][664]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.163289
+[2023.12.08-11.49.08:289][665]LogCharacterMovement: BP_Fish_01_C_UAID_B42E9937F3E05FC301_1396720799 is stuck and failed to move! Velocity: X=8.69 Y=-17.86 Z=0.00 Location: X=-25851.56 Y=-130164.24 Z=64.38 Normal: X=-0.95 Y=0.31 Z=0.08 PenetrationDepth:0.893 Actor:BP_Player_C_0 Component:BoatMesh BoneName:None (0 other events since notify)
+[2023.12.08-11.49.08:295][665]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.153198
+[2023.12.08-11.49.08:306][666]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.143501
+[2023.12.08-11.49.08:316][667]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.133035
+[2023.12.08-11.49.08:326][668]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.1228
+[2023.12.08-11.49.08:336][669]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.112383
+[2023.12.08-11.49.08:347][670]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.102393
+[2023.12.08-11.49.08:358][671]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.092177
+[2023.12.08-11.49.08:368][672]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.081638
+[2023.12.08-11.49.08:379][673]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.071147
+[2023.12.08-11.49.08:389][674]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.059647
+[2023.12.08-11.49.08:399][675]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.04945
+[2023.12.08-11.49.08:409][676]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.039652
+[2023.12.08-11.49.08:419][677]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.029519
+[2023.12.08-11.49.08:430][678]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.019142
+[2023.12.08-11.49.08:440][679]LogBlueprintUserMessages: [WB_GameUI_C_0] 55.009188
+[2023.12.08-11.49.08:450][680]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.998816
+[2023.12.08-11.49.08:461][681]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.988224
+[2023.12.08-11.49.08:471][682]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.977951
+[2023.12.08-11.49.08:481][683]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.967917
+[2023.12.08-11.49.08:491][684]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.957381
+[2023.12.08-11.49.08:501][685]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.946997
+[2023.12.08-11.49.08:511][686]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.937158
+[2023.12.08-11.49.08:521][687]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.926993
+[2023.12.08-11.49.08:532][688]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.916727
+[2023.12.08-11.49.08:543][689]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.90542
+[2023.12.08-11.49.08:553][690]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.895135
+[2023.12.08-11.49.08:563][691]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.88497
+[2023.12.08-11.49.08:574][692]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.874454
+[2023.12.08-11.49.08:585][693]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.864298
+[2023.12.08-11.49.08:595][694]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.853451
+[2023.12.08-11.49.08:605][695]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.842827
+[2023.12.08-11.49.08:615][696]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.83322
+[2023.12.08-11.49.08:626][697]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.822505
+[2023.12.08-11.49.08:636][698]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.812067
+[2023.12.08-11.49.08:647][699]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.801865
+[2023.12.08-11.49.08:657][700]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.79123
+[2023.12.08-11.49.08:667][701]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.780844
+[2023.12.08-11.49.08:678][702]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.771053
+[2023.12.08-11.49.08:688][703]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.760436
+[2023.12.08-11.49.08:698][704]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.749588
+[2023.12.08-11.49.08:709][705]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.739797
+[2023.12.08-11.49.08:720][706]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.729481
+[2023.12.08-11.49.08:729][707]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.719088
+[2023.12.08-11.49.08:740][708]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.709037
+[2023.12.08-11.49.08:751][709]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.698825
+[2023.12.08-11.49.08:760][710]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.688384
+[2023.12.08-11.49.08:772][711]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.678145
+[2023.12.08-11.49.08:782][712]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.667393
+[2023.12.08-11.49.08:792][713]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.656942
+[2023.12.08-11.49.08:803][714]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.646591
+[2023.12.08-11.49.08:815][715]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.636589
+[2023.12.08-11.49.08:825][716]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.624387
+[2023.12.08-11.49.08:836][717]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.612697
+[2023.12.08-11.49.08:848][718]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.602793
+[2023.12.08-11.49.08:861][719]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.590852
+[2023.12.08-11.49.08:875][720]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.579287
+[2023.12.08-11.49.08:887][721]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.566777
+[2023.12.08-11.49.08:899][722]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.553776
+[2023.12.08-11.49.08:909][723]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.541027
+[2023.12.08-11.49.08:919][724]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.529901
+[2023.12.08-11.49.08:930][725]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.519166
+[2023.12.08-11.49.08:941][726]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.508501
+[2023.12.08-11.49.08:951][727]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.498387
+[2023.12.08-11.49.08:963][728]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.487256
+[2023.12.08-11.49.08:975][729]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.475976
+[2023.12.08-11.49.08:987][730]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.465148
+[2023.12.08-11.49.08:998][731]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.451861
+[2023.12.08-11.49.09:010][732]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.440891
+[2023.12.08-11.49.09:021][733]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.429925
+[2023.12.08-11.49.09:033][734]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.417855
+[2023.12.08-11.49.09:045][735]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.407194
+[2023.12.08-11.49.09:056][736]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.395576
+[2023.12.08-11.49.09:067][737]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.383535
+[2023.12.08-11.49.09:077][738]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.373135
+[2023.12.08-11.49.09:091][739]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.361253
+[2023.12.08-11.49.09:101][740]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.349676
+[2023.12.08-11.49.09:113][741]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.337474
+[2023.12.08-11.49.09:125][742]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.326277
+[2023.12.08-11.49.09:136][743]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.314249
+[2023.12.08-11.49.09:147][744]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.303413
+[2023.12.08-11.49.09:157][745]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.292074
+[2023.12.08-11.49.09:168][746]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.281205
+[2023.12.08-11.49.09:179][747]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.271158
+[2023.12.08-11.49.09:189][748]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.259991
+[2023.12.08-11.49.09:199][749]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.249479
+[2023.12.08-11.49.09:210][750]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.239529
+[2023.12.08-11.49.09:220][751]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.229193
+[2023.12.08-11.49.09:230][752]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.218628
+[2023.12.08-11.49.09:241][753]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.208369
+[2023.12.08-11.49.09:253][754]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.198183
+[2023.12.08-11.49.09:263][755]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.18733
+[2023.12.08-11.49.09:274][756]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.175573
+[2023.12.08-11.49.09:284][757]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.165604
+[2023.12.08-11.49.09:294][758]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.154955
+[2023.12.08-11.49.09:304][759]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.144752
+[2023.12.08-11.49.09:315][760]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.135065
+[2023.12.08-11.49.09:325][761]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.123919
+[2023.12.08-11.49.09:335][762]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.113671
+[2023.12.08-11.49.09:347][763]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.10375
+[2023.12.08-11.49.09:356][764]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.092395
+[2023.12.08-11.49.09:367][765]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.082432
+[2023.12.08-11.49.09:376][766]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.072091
+[2023.12.08-11.49.09:386][767]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.06167
+[2023.12.08-11.49.09:397][768]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.051589
+[2023.12.08-11.49.09:407][769]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.041331
+[2023.12.08-11.49.09:417][770]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.0311
+[2023.12.08-11.49.09:428][771]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.020523
+[2023.12.08-11.49.09:439][772]LogBlueprintUserMessages: [WB_GameUI_C_0] 54.010135
+[2023.12.08-11.49.09:449][773]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.999885
+[2023.12.08-11.49.09:459][774]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.989094
+[2023.12.08-11.49.09:471][775]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.978772
+[2023.12.08-11.49.09:482][776]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.96807
+[2023.12.08-11.49.09:491][777]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.956996
+[2023.12.08-11.49.09:501][778]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.946822
+[2023.12.08-11.49.09:512][779]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.937063
+[2023.12.08-11.49.09:522][780]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.926303
+[2023.12.08-11.49.09:532][781]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.916001
+[2023.12.08-11.49.09:542][782]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.906238
+[2023.12.08-11.49.09:553][783]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.896197
+[2023.12.08-11.49.09:562][784]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.885721
+[2023.12.08-11.49.09:574][785]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.87528
+[2023.12.08-11.49.09:584][786]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.865383
+[2023.12.08-11.49.09:594][787]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.854673
+[2023.12.08-11.49.09:605][788]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.8439
+[2023.12.08-11.49.09:616][789]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.833898
+[2023.12.08-11.49.09:626][790]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.822734
+[2023.12.08-11.49.09:637][791]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.812545
+[2023.12.08-11.49.09:647][792]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.802646
+[2023.12.08-11.49.09:657][793]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.792042
+[2023.12.08-11.49.09:667][794]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.78194
+[2023.12.08-11.49.09:678][795]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.771733
+[2023.12.08-11.49.09:688][796]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.761199
+[2023.12.08-11.49.09:698][797]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.750831
+[2023.12.08-11.49.09:709][798]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.740934
+[2023.12.08-11.49.09:719][799]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.731181
+[2023.12.08-11.49.09:729][800]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.719541
+[2023.12.08-11.49.09:740][801]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.708926
+[2023.12.08-11.49.09:750][802]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.699038
+[2023.12.08-11.49.09:760][803]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.688203
+[2023.12.08-11.49.09:770][804]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.677956
+[2023.12.08-11.49.09:781][805]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.667873
+[2023.12.08-11.49.09:790][806]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.657167
+[2023.12.08-11.49.09:802][807]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.647542
+[2023.12.08-11.49.09:813][808]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.637428
+[2023.12.08-11.49.09:824][809]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.626667
+[2023.12.08-11.49.09:834][810]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.614545
+[2023.12.08-11.49.09:848][811]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.604218
+[2023.12.08-11.49.09:860][812]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.590954
+[2023.12.08-11.49.09:873][813]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.579618
+[2023.12.08-11.49.09:884][814]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.568083
+[2023.12.08-11.49.09:896][815]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.555319
+[2023.12.08-11.49.09:908][816]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.542975
+[2023.12.08-11.49.09:918][817]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.531668
+[2023.12.08-11.49.09:930][818]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.520383
+[2023.12.08-11.49.09:942][819]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.508844
+[2023.12.08-11.49.09:952][820]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.498558
+[2023.12.08-11.49.09:965][821]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.48657
+[2023.12.08-11.49.09:977][822]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.475446
+[2023.12.08-11.49.09:989][823]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.463056
+[2023.12.08-11.49.09:999][824]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.450424
+[2023.12.08-11.49.10:012][825]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.439654
+[2023.12.08-11.49.10:023][826]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.428957
+[2023.12.08-11.49.10:035][827]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.416779
+[2023.12.08-11.49.10:049][828]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.405259
+[2023.12.08-11.49.10:058][829]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.393894
+[2023.12.08-11.49.10:069][830]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.380318
+[2023.12.08-11.49.10:083][831]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.370089
+[2023.12.08-11.49.10:092][832]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.358769
+[2023.12.08-11.49.10:102][833]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.346314
+[2023.12.08-11.49.10:115][834]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.336776
+[2023.12.08-11.49.10:125][835]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.326456
+[2023.12.08-11.49.10:136][836]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.314213
+[2023.12.08-11.49.10:147][837]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.303297
+[2023.12.08-11.49.10:157][838]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.292328
+[2023.12.08-11.49.10:167][839]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.281805
+[2023.12.08-11.49.10:178][840]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.27113
+[2023.12.08-11.49.10:188][841]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.261197
+[2023.12.08-11.49.10:199][842]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.250447
+[2023.12.08-11.49.10:209][843]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.240048
+[2023.12.08-11.49.10:219][844]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.229896
+[2023.12.08-11.49.10:230][845]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.219345
+[2023.12.08-11.49.10:241][846]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.208738
+[2023.12.08-11.49.10:251][847]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.198822
+[2023.12.08-11.49.10:261][848]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.187801
+[2023.12.08-11.49.10:272][849]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.177216
+[2023.12.08-11.49.10:281][850]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.167104
+[2023.12.08-11.49.10:291][851]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.15629
+[2023.12.08-11.49.10:302][852]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.14658
+[2023.12.08-11.49.10:312][853]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.136249
+[2023.12.08-11.49.10:322][854]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.125956
+[2023.12.08-11.49.10:332][855]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.116004
+[2023.12.08-11.49.10:343][856]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.10568
+[2023.12.08-11.49.10:354][857]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.095236
+[2023.12.08-11.49.10:364][858]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.084889
+[2023.12.08-11.49.10:374][859]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.074689
+[2023.12.08-11.49.10:384][860]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.064495
+[2023.12.08-11.49.10:395][861]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.053916
+[2023.12.08-11.49.10:405][862]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.043393
+[2023.12.08-11.49.10:416][863]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.033384
+[2023.12.08-11.49.10:426][864]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.022702
+[2023.12.08-11.49.10:435][865]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.013022
+[2023.12.08-11.49.10:447][866]LogBlueprintUserMessages: [WB_GameUI_C_0] 53.002753
+[2023.12.08-11.49.10:456][867]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.991909
+[2023.12.08-11.49.10:466][868]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.981901
+[2023.12.08-11.49.10:477][869]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.971778
+[2023.12.08-11.49.10:487][870]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.961841
+[2023.12.08-11.49.10:498][871]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.950842
+[2023.12.08-11.49.10:509][872]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.940014
+[2023.12.08-11.49.10:519][873]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.930096
+[2023.12.08-11.49.10:529][874]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.919397
+[2023.12.08-11.49.10:539][875]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.9091
+[2023.12.08-11.49.10:550][876]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.899656
+[2023.12.08-11.49.10:561][877]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.88892
+[2023.12.08-11.49.10:572][878]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.879072
+[2023.12.08-11.49.10:582][879]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.867181
+[2023.12.08-11.49.10:592][880]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.856603
+[2023.12.08-11.49.10:603][881]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.845956
+[2023.12.08-11.49.10:614][882]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.835759
+[2023.12.08-11.49.10:624][883]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.824891
+[2023.12.08-11.49.10:634][884]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.814546
+[2023.12.08-11.49.10:644][885]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.8043
+[2023.12.08-11.49.10:655][886]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.794004
+[2023.12.08-11.49.10:665][887]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.783324
+[2023.12.08-11.49.10:676][888]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.772671
+[2023.12.08-11.49.10:686][889]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.762286
+[2023.12.08-11.49.10:696][890]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.751839
+[2023.12.08-11.49.10:707][891]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.741853
+[2023.12.08-11.49.10:717][892]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.731895
+[2023.12.08-11.49.10:728][893]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.721083
+[2023.12.08-11.49.10:738][894]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.710475
+[2023.12.08-11.49.10:749][895]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.700857
+[2023.12.08-11.49.10:759][896]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.689397
+[2023.12.08-11.49.10:769][897]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.679419
+[2023.12.08-11.49.10:780][898]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.669158
+[2023.12.08-11.49.10:790][899]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.657957
+[2023.12.08-11.49.10:801][900]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.647858
+[2023.12.08-11.49.10:814][901]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.637698
+[2023.12.08-11.49.10:825][902]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.626508
+[2023.12.08-11.49.10:836][903]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.613197
+[2023.12.08-11.49.10:848][904]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.603061
+[2023.12.08-11.49.10:860][905]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.590722
+[2023.12.08-11.49.10:873][906]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.579338
+[2023.12.08-11.49.10:885][907]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.56796
+[2023.12.08-11.49.10:898][908]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.554548
+[2023.12.08-11.49.10:909][909]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.542359
+[2023.12.08-11.49.10:920][910]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.530637
+[2023.12.08-11.49.10:933][911]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.518767
+[2023.12.08-11.49.10:945][912]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.506369
+[2023.12.08-11.49.10:957][913]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.49518
+[2023.12.08-11.49.10:971][914]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.483316
+[2023.12.08-11.49.10:981][915]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.471448
+[2023.12.08-11.49.10:992][916]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.458274
+[2023.12.08-11.49.11:004][917]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.447592
+[2023.12.08-11.49.11:015][918]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.435919
+[2023.12.08-11.49.11:027][919]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.425314
+[2023.12.08-11.49.11:037][920]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.412527
+[2023.12.08-11.49.11:050][921]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.401363
+[2023.12.08-11.49.11:061][922]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.390954
+[2023.12.08-11.49.11:072][923]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.377716
+[2023.12.08-11.49.11:084][924]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.366854
+[2023.12.08-11.49.11:094][925]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.355716
+[2023.12.08-11.49.11:105][926]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.344364
+[2023.12.08-11.49.11:117][927]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.333554
+[2023.12.08-11.49.11:129][928]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.32309
+[2023.12.08-11.49.11:140][929]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.311285
+[2023.12.08-11.49.11:149][930]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.299684
+[2023.12.08-11.49.11:160][931]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.288708
+[2023.12.08-11.49.11:171][932]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.277903
+[2023.12.08-11.49.11:181][933]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.26807
+[2023.12.08-11.49.11:191][934]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.25763
+[2023.12.08-11.49.11:201][935]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.247843
+[2023.12.08-11.49.11:212][936]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.236881
+[2023.12.08-11.49.11:222][937]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.226455
+[2023.12.08-11.49.11:233][938]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.216173
+[2023.12.08-11.49.11:244][939]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.205519
+[2023.12.08-11.49.11:254][940]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.195395
+[2023.12.08-11.49.11:265][941]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.184316
+[2023.12.08-11.49.11:276][942]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.173964
+[2023.12.08-11.49.11:286][943]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.163816
+[2023.12.08-11.49.11:296][944]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.152652
+[2023.12.08-11.49.11:307][945]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.142228
+[2023.12.08-11.49.11:316][946]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.132127
+[2023.12.08-11.49.11:326][947]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.121716
+[2023.12.08-11.49.11:337][948]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.112083
+[2023.12.08-11.49.11:346][949]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.10171
+[2023.12.08-11.49.11:357][950]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.091326
+[2023.12.08-11.49.11:367][951]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.081208
+[2023.12.08-11.49.11:378][952]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.070825
+[2023.12.08-11.49.11:389][953]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.060538
+[2023.12.08-11.49.11:400][954]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.049807
+[2023.12.08-11.49.11:410][955]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.03947
+[2023.12.08-11.49.11:420][956]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.02878
+[2023.12.08-11.49.11:431][957]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.018284
+[2023.12.08-11.49.11:441][958]LogBlueprintUserMessages: [WB_GameUI_C_0] 52.008262
+[2023.12.08-11.49.11:451][959]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.998212
+[2023.12.08-11.49.11:462][960]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.987322
+[2023.12.08-11.49.11:472][961]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.977309
+[2023.12.08-11.49.11:481][962]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.967359
+[2023.12.08-11.49.11:491][963]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.956595
+[2023.12.08-11.49.11:501][964]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.947124
+[2023.12.08-11.49.11:512][965]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.936402
+[2023.12.08-11.49.11:522][966]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.926221
+[2023.12.08-11.49.11:533][967]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.916161
+[2023.12.08-11.49.11:543][968]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.905468
+[2023.12.08-11.49.11:553][969]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.895315
+[2023.12.08-11.49.11:563][970]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.884791
+[2023.12.08-11.49.11:574][971]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.874576
+[2023.12.08-11.49.11:585][972]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.864263
+[2023.12.08-11.49.11:595][973]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.853399
+[2023.12.08-11.49.11:606][974]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.843191
+[2023.12.08-11.49.11:616][975]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.833205
+[2023.12.08-11.49.11:625][976]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.822553
+[2023.12.08-11.49.11:636][977]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.812696
+[2023.12.08-11.49.11:646][978]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.802624
+[2023.12.08-11.49.11:656][979]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.792356
+[2023.12.08-11.49.11:667][980]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.781962
+[2023.12.08-11.49.11:677][981]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.771485
+[2023.12.08-11.49.11:687][982]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.76178
+[2023.12.08-11.49.11:698][983]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.751038
+[2023.12.08-11.49.11:708][984]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.74079
+[2023.12.08-11.49.11:718][985]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.731079
+[2023.12.08-11.49.11:729][986]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.719843
+[2023.12.08-11.49.11:739][987]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.709884
+[2023.12.08-11.49.11:749][988]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.700051
+[2023.12.08-11.49.11:759][989]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.689626
+[2023.12.08-11.49.11:768][990]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.67984
+[2023.12.08-11.49.11:779][991]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.669856
+[2023.12.08-11.49.11:790][992]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.659601
+[2023.12.08-11.49.11:800][993]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.648892
+[2023.12.08-11.49.11:814][994]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.639263
+[2023.12.08-11.49.11:825][995]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.626795
+[2023.12.08-11.49.11:836][996]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.614002
+[2023.12.08-11.49.11:849][997]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.603127
+[2023.12.08-11.49.11:861][998]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.592115
+[2023.12.08-11.49.11:874][999]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.578921
+[2023.12.08-11.49.11:886][  0]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.566458
+[2023.12.08-11.49.11:897][  1]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.552854
+[2023.12.08-11.49.11:908][  2]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.541063
+[2023.12.08-11.49.11:921][  3]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.530653
+[2023.12.08-11.49.11:931][  4]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.518892
+[2023.12.08-11.49.11:943][  5]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.506713
+[2023.12.08-11.49.11:956][  6]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.496526
+[2023.12.08-11.49.11:967][  7]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.483742
+[2023.12.08-11.49.11:979][  8]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.471246
+[2023.12.08-11.49.11:990][  9]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.460834
+[2023.12.08-11.49.12:003][ 10]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.448599
+[2023.12.08-11.49.12:014][ 11]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.437539
+[2023.12.08-11.49.12:025][ 12]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.424602
+[2023.12.08-11.49.12:036][ 13]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.413765
+[2023.12.08-11.49.12:048][ 14]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.402667
+[2023.12.08-11.49.12:060][ 15]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.391479
+[2023.12.08-11.49.12:072][ 16]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.379426
+[2023.12.08-11.49.12:083][ 17]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.367701
+[2023.12.08-11.49.12:094][ 18]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.356146
+[2023.12.08-11.49.12:105][ 19]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.34509
+[2023.12.08-11.49.12:120][ 20]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.334194
+[2023.12.08-11.49.12:130][ 21]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.323384
+[2023.12.08-11.49.12:140][ 22]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.309151
+[2023.12.08-11.49.12:153][ 23]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.299226
+[2023.12.08-11.49.12:163][ 24]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.288102
+[2023.12.08-11.49.12:174][ 25]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.276271
+[2023.12.08-11.49.12:186][ 26]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.265933
+[2023.12.08-11.49.12:196][ 27]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.25321
+[2023.12.08-11.49.12:207][ 28]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.242331
+[2023.12.08-11.49.12:218][ 29]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.23156
+[2023.12.08-11.49.12:228][ 30]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.220618
+[2023.12.08-11.49.12:238][ 31]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.21056
+[2023.12.08-11.49.12:248][ 32]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.200496
+[2023.12.08-11.49.12:258][ 33]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.189461
+[2023.12.08-11.49.12:268][ 34]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.179576
+[2023.12.08-11.49.12:279][ 35]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.16932
+[2023.12.08-11.49.12:290][ 36]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.158903
+[2023.12.08-11.49.12:301][ 37]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.148324
+[2023.12.08-11.49.12:313][ 38]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.137182
+[2023.12.08-11.49.12:324][ 39]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.126458
+[2023.12.08-11.49.12:335][ 40]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.115074
+[2023.12.08-11.49.12:345][ 41]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.104262
+[2023.12.08-11.49.12:357][ 42]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.093137
+[2023.12.08-11.49.12:366][ 43]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.08262
+[2023.12.08-11.49.12:378][ 44]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.071801
+[2023.12.08-11.49.12:388][ 45]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.062155
+[2023.12.08-11.49.12:400][ 46]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.050617
+[2023.12.08-11.49.12:412][ 47]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.040112
+[2023.12.08-11.49.12:422][ 48]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.027727
+[2023.12.08-11.49.12:432][ 49]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.016202
+[2023.12.08-11.49.12:443][ 50]LogBlueprintUserMessages: [WB_GameUI_C_0] 51.005998
+[2023.12.08-11.49.12:453][ 51]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.995908
+[2023.12.08-11.49.12:463][ 52]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.985229
+[2023.12.08-11.49.12:474][ 53]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.975069
+[2023.12.08-11.49.12:484][ 54]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.965381
+[2023.12.08-11.49.12:495][ 55]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.954336
+[2023.12.08-11.49.12:505][ 56]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.944002
+[2023.12.08-11.49.12:515][ 57]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.933751
+[2023.12.08-11.49.12:525][ 58]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.923412
+[2023.12.08-11.49.12:536][ 59]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.913323
+[2023.12.08-11.49.12:546][ 60]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.902721
+[2023.12.08-11.49.12:556][ 61]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.89252
+[2023.12.08-11.49.12:566][ 62]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.882268
+[2023.12.08-11.49.12:577][ 63]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.871599
+[2023.12.08-11.49.12:587][ 64]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.8613
+[2023.12.08-11.49.12:597][ 65]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.850851
+[2023.12.08-11.49.12:608][ 66]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.840646
+[2023.12.08-11.49.12:620][ 67]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.830187
+[2023.12.08-11.49.12:630][ 68]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.819181
+[2023.12.08-11.49.12:642][ 69]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.808042
+[2023.12.08-11.49.12:652][ 70]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.797471
+[2023.12.08-11.49.12:662][ 71]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.786951
+[2023.12.08-11.49.12:672][ 72]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.777033
+[2023.12.08-11.49.12:683][ 73]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.766291
+[2023.12.08-11.49.12:694][ 74]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.755626
+[2023.12.08-11.49.12:704][ 75]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.745179
+[2023.12.08-11.49.12:716][ 76]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.734487
+[2023.12.08-11.49.12:725][ 77]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.724147
+[2023.12.08-11.49.12:735][ 78]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.713261
+[2023.12.08-11.49.12:745][ 79]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.703391
+[2023.12.08-11.49.12:756][ 80]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.693383
+[2023.12.08-11.49.12:765][ 81]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.682418
+[2023.12.08-11.49.12:776][ 82]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.672407
+[2023.12.08-11.49.12:786][ 83]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.662404
+[2023.12.08-11.49.12:798][ 84]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.651859
+[2023.12.08-11.49.12:811][ 85]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.641762
+[2023.12.08-11.49.12:822][ 86]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.630194
+[2023.12.08-11.49.12:834][ 87]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.617936
+[2023.12.08-11.49.12:846][ 88]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.606337
+[2023.12.08-11.49.12:856][ 89]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.594209
+[2023.12.08-11.49.12:868][ 90]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.581696
+[2023.12.08-11.49.12:881][ 91]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.571245
+[2023.12.08-11.49.12:895][ 92]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.559218
+[2023.12.08-11.49.12:905][ 93]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.545054
+[2023.12.08-11.49.12:916][ 94]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.533223
+[2023.12.08-11.49.12:929][ 95]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.52341
+[2023.12.08-11.49.12:945][ 96]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.511499
+[2023.12.08-11.49.12:963][ 97]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.49962
+[2023.12.08-11.49.12:974][ 98]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.483638
+[2023.12.08-11.49.12:988][ 99]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.465786
+[2023.12.08-11.49.12:997][100]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.453909
+[2023.12.08-11.49.13:007][101]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.440632
+[2023.12.08-11.49.13:018][102]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.430983
+[2023.12.08-11.49.13:031][103]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.420888
+[2023.12.08-11.49.13:042][104]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.409344
+[2023.12.08-11.49.13:054][105]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.3976
+[2023.12.08-11.49.13:066][106]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.386451
+[2023.12.08-11.49.13:078][107]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.374448
+[2023.12.08-11.49.13:090][108]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.362887
+[2023.12.08-11.49.13:101][109]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.349277
+[2023.12.08-11.49.13:113][110]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.338642
+[2023.12.08-11.49.13:123][111]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.327695
+[2023.12.08-11.49.13:136][112]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.315851
+[2023.12.08-11.49.13:148][113]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.304571
+[2023.12.08-11.49.13:158][114]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.291755
+[2023.12.08-11.49.13:170][115]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.281006
+[2023.12.08-11.49.13:181][116]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.270464
+[2023.12.08-11.49.13:192][117]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.258218
+[2023.12.08-11.49.13:203][118]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.246969
+[2023.12.08-11.49.13:213][119]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.23627
+[2023.12.08-11.49.13:222][120]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.225563
+[2023.12.08-11.49.13:233][121]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.215228
+[2023.12.08-11.49.13:244][122]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.205041
+[2023.12.08-11.49.13:254][123]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.194829
+[2023.12.08-11.49.13:266][124]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.183495
+[2023.12.08-11.49.13:276][125]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.173228
+[2023.12.08-11.49.13:287][126]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.162784
+[2023.12.08-11.49.13:298][127]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.152022
+[2023.12.08-11.49.13:309][128]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.140081
+[2023.12.08-11.49.13:320][129]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.129775
+[2023.12.08-11.49.13:330][130]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.11795
+[2023.12.08-11.49.13:341][131]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.108138
+[2023.12.08-11.49.13:351][132]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.098198
+[2023.12.08-11.49.13:361][133]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.08751
+[2023.12.08-11.49.13:373][134]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.077466
+[2023.12.08-11.49.13:383][135]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.066602
+[2023.12.08-11.49.13:393][136]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.05576
+[2023.12.08-11.49.13:403][137]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.045651
+[2023.12.08-11.49.13:414][138]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.035229
+[2023.12.08-11.49.13:424][139]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.024728
+[2023.12.08-11.49.13:435][140]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.013979
+[2023.12.08-11.49.13:445][141]LogBlueprintUserMessages: [WB_GameUI_C_0] 50.003857
+[2023.12.08-11.49.13:456][142]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.993522
+[2023.12.08-11.49.13:465][143]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.982846
+[2023.12.08-11.49.13:476][144]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.973123
+[2023.12.08-11.49.13:486][145]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.963051
+[2023.12.08-11.49.13:496][146]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.952137
+[2023.12.08-11.49.13:507][147]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.942129
+[2023.12.08-11.49.13:518][148]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.931514
+[2023.12.08-11.49.13:528][149]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.920395
+[2023.12.08-11.49.13:538][150]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.91002
+[2023.12.08-11.49.13:549][151]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.899545
+[2023.12.08-11.49.13:559][152]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.888828
+[2023.12.08-11.49.13:569][153]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.878692
+[2023.12.08-11.49.13:579][154]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.868585
+[2023.12.08-11.49.13:590][155]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.858118
+[2023.12.08-11.49.13:600][156]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.847802
+[2023.12.08-11.49.13:611][157]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.837679
+[2023.12.08-11.49.13:621][158]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.828074
+[2023.12.08-11.49.13:631][159]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.817257
+[2023.12.08-11.49.13:642][160]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.80678
+[2023.12.08-11.49.13:652][161]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.796565
+[2023.12.08-11.49.13:663][162]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.78571
+[2023.12.08-11.49.13:673][163]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.775531
+[2023.12.08-11.49.13:683][164]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.765362
+[2023.12.08-11.49.13:694][165]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.754834
+[2023.12.08-11.49.13:704][166]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.744383
+[2023.12.08-11.49.13:715][167]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.734184
+[2023.12.08-11.49.13:725][168]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.723463
+[2023.12.08-11.49.13:735][169]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.713454
+[2023.12.08-11.49.13:745][170]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.70316
+[2023.12.08-11.49.13:755][171]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.69361
+[2023.12.08-11.49.13:766][172]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.682647
+[2023.12.08-11.49.13:777][173]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.672423
+[2023.12.08-11.49.13:787][174]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.662294
+[2023.12.08-11.49.13:798][175]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.651183
+[2023.12.08-11.49.13:810][176]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.641133
+[2023.12.08-11.49.13:821][177]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.63082
+[2023.12.08-11.49.13:832][178]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.618058
+[2023.12.08-11.49.13:843][179]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.607634
+[2023.12.08-11.49.13:855][180]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.596636
+[2023.12.08-11.49.13:866][181]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.583715
+[2023.12.08-11.49.13:879][182]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.573391
+[2023.12.08-11.49.13:891][183]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.562115
+[2023.12.08-11.49.13:903][184]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.548772
+[2023.12.08-11.49.13:913][185]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.5362
+[2023.12.08-11.49.13:924][186]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.526158
+[2023.12.08-11.49.13:937][187]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.515029
+[2023.12.08-11.49.13:947][188]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.503737
+[2023.12.08-11.49.13:957][189]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.492416
+[2023.12.08-11.49.13:970][190]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.481386
+[2023.12.08-11.49.13:981][191]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.468848
+[2023.12.08-11.49.13:991][192]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.458536
+[2023.12.08-11.49.14:005][193]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.44752
+[2023.12.08-11.49.14:016][194]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.435889
+[2023.12.08-11.49.14:027][195]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.423481
+[2023.12.08-11.49.14:039][196]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.41223
+[2023.12.08-11.49.14:051][197]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.40113
+[2023.12.08-11.49.14:063][198]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.388441
+[2023.12.08-11.49.14:075][199]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.376967
+[2023.12.08-11.49.14:085][200]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.365425
+[2023.12.08-11.49.14:096][201]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.354019
+[2023.12.08-11.49.14:108][202]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.343221
+[2023.12.08-11.49.14:121][203]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.331087
+[2023.12.08-11.49.14:131][204]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.319667
+[2023.12.08-11.49.14:142][205]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.307822
+[2023.12.08-11.49.14:153][206]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.297347
+[2023.12.08-11.49.14:165][207]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.286713
+[2023.12.08-11.49.14:176][208]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.275409
+[2023.12.08-11.49.14:188][209]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.263685
+[2023.12.08-11.49.14:199][210]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.251243
+[2023.12.08-11.49.14:209][211]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.24044
+[2023.12.08-11.49.14:220][212]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.229417
+[2023.12.08-11.49.14:230][213]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.218927
+[2023.12.08-11.49.14:241][214]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.208779
+[2023.12.08-11.49.14:252][215]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.198321
+[2023.12.08-11.49.14:262][216]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.187005
+[2023.12.08-11.49.14:272][217]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.176902
+[2023.12.08-11.49.14:283][218]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.166351
+[2023.12.08-11.49.14:293][219]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.156003
+[2023.12.08-11.49.14:304][220]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.145159
+[2023.12.08-11.49.14:314][221]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.134704
+[2023.12.08-11.49.14:325][222]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.124174
+[2023.12.08-11.49.14:335][223]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.113509
+[2023.12.08-11.49.14:346][224]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.103569
+[2023.12.08-11.49.14:355][225]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.093282
+[2023.12.08-11.49.14:366][226]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.083034
+[2023.12.08-11.49.14:376][227]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.072753
+[2023.12.08-11.49.14:386][228]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.062532
+[2023.12.08-11.49.14:397][229]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.052416
+[2023.12.08-11.49.14:407][230]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.042079
+[2023.12.08-11.49.14:417][231]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.031638
+[2023.12.08-11.49.14:428][232]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.021494
+[2023.12.08-11.49.14:438][233]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.011074
+[2023.12.08-11.49.14:448][234]LogBlueprintUserMessages: [WB_GameUI_C_0] 49.001032
+[2023.12.08-11.49.14:458][235]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.990635
+[2023.12.08-11.49.14:468][236]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.980649
+[2023.12.08-11.49.14:479][237]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.970796
+[2023.12.08-11.49.14:489][238]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.960823
+[2023.12.08-11.49.14:499][239]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.949959
+[2023.12.08-11.49.14:509][240]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.939989
+[2023.12.08-11.49.14:519][241]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.92973
+[2023.12.08-11.49.14:529][242]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.919361
+[2023.12.08-11.49.14:540][243]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.909054
+[2023.12.08-11.49.14:550][244]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.898301
+[2023.12.08-11.49.14:561][245]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.888054
+[2023.12.08-11.49.14:571][246]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.877685
+[2023.12.08-11.49.14:582][247]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.867379
+[2023.12.08-11.49.14:592][248]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.856876
+[2023.12.08-11.49.14:601][249]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.846591
+[2023.12.08-11.49.14:612][250]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.836786
+[2023.12.08-11.49.14:622][251]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.826768
+[2023.12.08-11.49.14:632][252]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.816618
+[2023.12.08-11.49.14:642][253]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.806625
+[2023.12.08-11.49.14:652][254]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.79672
+[2023.12.08-11.49.14:663][255]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.786435
+[2023.12.08-11.49.14:674][256]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.775801
+[2023.12.08-11.49.14:685][257]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.765062
+[2023.12.08-11.49.14:698][258]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.754514
+[2023.12.08-11.49.14:710][259]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.743361
+[2023.12.08-11.49.14:722][260]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.730982
+[2023.12.08-11.49.14:732][261]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.718477
+[2023.12.08-11.49.14:743][262]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.707058
+[2023.12.08-11.49.14:754][263]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.696906
+[2023.12.08-11.49.14:764][264]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.686285
+[2023.12.08-11.49.14:775][265]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.67506
+[2023.12.08-11.49.14:785][266]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.66462
+[2023.12.08-11.49.14:794][267]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.653971
+[2023.12.08-11.49.14:807][268]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.643458
+[2023.12.08-11.49.14:818][269]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.632561
+[2023.12.08-11.49.14:829][270]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.620953
+[2023.12.08-11.49.14:841][271]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.609369
+[2023.12.08-11.49.14:851][272]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.598343
+[2023.12.08-11.49.14:861][273]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.587486
+[2023.12.08-11.49.14:874][274]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.577088
+[2023.12.08-11.49.14:886][275]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.566926
+[2023.12.08-11.49.14:898][276]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.554553
+[2023.12.08-11.49.14:912][277]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.542924
+[2023.12.08-11.49.14:923][278]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.529507
+[2023.12.08-11.49.14:934][279]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.516527
+[2023.12.08-11.49.14:948][280]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.505713
+[2023.12.08-11.49.14:958][281]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.492654
+[2023.12.08-11.49.14:969][282]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.480257
+[2023.12.08-11.49.14:980][283]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.470427
+[2023.12.08-11.49.14:993][284]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.459029
+[2023.12.08-11.49.15:004][285]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.447337
+[2023.12.08-11.49.15:016][286]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.43539
+[2023.12.08-11.49.15:027][287]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.423914
+[2023.12.08-11.49.15:037][288]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.412684
+[2023.12.08-11.49.15:047][289]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.401272
+[2023.12.08-11.49.15:059][290]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.391634
+[2023.12.08-11.49.15:070][291]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.381554
+[2023.12.08-11.49.15:086][292]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.369202
+[2023.12.08-11.49.15:099][293]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.356879
+[2023.12.08-11.49.15:110][294]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.342717
+[2023.12.08-11.49.15:124][295]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.329447
+[2023.12.08-11.49.15:134][296]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.318931
+[2023.12.08-11.49.15:143][297]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.305058
+[2023.12.08-11.49.15:154][298]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.294753
+[2023.12.08-11.49.15:166][299]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.284834
+[2023.12.08-11.49.15:177][300]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.273843
+[2023.12.08-11.49.15:188][301]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.262671
+[2023.12.08-11.49.15:198][302]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.251582
+[2023.12.08-11.49.15:209][303]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.240738
+[2023.12.08-11.49.15:220][304]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.230704
+[2023.12.08-11.49.15:230][305]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.219383
+[2023.12.08-11.49.15:239][306]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.208619
+[2023.12.08-11.49.15:249][307]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.198824
+[2023.12.08-11.49.15:260][308]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.188561
+[2023.12.08-11.49.15:271][309]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.177859
+[2023.12.08-11.49.15:282][310]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.167636
+[2023.12.08-11.49.15:292][311]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.156817
+[2023.12.08-11.49.15:302][312]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.146252
+[2023.12.08-11.49.15:313][313]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.136341
+[2023.12.08-11.49.15:323][314]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.126108
+[2023.12.08-11.49.15:333][315]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.115521
+[2023.12.08-11.49.15:344][316]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.105369
+[2023.12.08-11.49.15:355][317]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.094687
+[2023.12.08-11.49.15:365][318]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.083751
+[2023.12.08-11.49.15:377][319]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.073239
+[2023.12.08-11.49.15:387][320]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.062313
+[2023.12.08-11.49.15:397][321]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.051902
+[2023.12.08-11.49.15:407][322]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.041757
+[2023.12.08-11.49.15:419][323]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.031834
+[2023.12.08-11.49.15:429][324]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.021005
+[2023.12.08-11.49.15:440][325]LogBlueprintUserMessages: [WB_GameUI_C_0] 48.009598
+[2023.12.08-11.49.15:450][326]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.999454
+[2023.12.08-11.49.15:460][327]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.98883
+[2023.12.08-11.49.15:470][328]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.978667
+[2023.12.08-11.49.15:481][329]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.968651
+[2023.12.08-11.49.15:491][330]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.958328
+[2023.12.08-11.49.15:502][331]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.947355
+[2023.12.08-11.49.15:512][332]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.937362
+[2023.12.08-11.49.15:521][333]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.926836
+[2023.12.08-11.49.15:532][334]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.916608
+[2023.12.08-11.49.15:542][335]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.906506
+[2023.12.08-11.49.15:554][336]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.896197
+[2023.12.08-11.49.15:564][337]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.884387
+[2023.12.08-11.49.15:574][338]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.873927
+[2023.12.08-11.49.15:585][339]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.863828
+[2023.12.08-11.49.15:596][340]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.852809
+[2023.12.08-11.49.15:606][341]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.842376
+[2023.12.08-11.49.15:616][342]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.832188
+[2023.12.08-11.49.15:626][343]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.821837
+[2023.12.08-11.49.15:637][344]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.811452
+[2023.12.08-11.49.15:648][345]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.801461
+[2023.12.08-11.49.15:658][346]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.790751
+[2023.12.08-11.49.15:668][347]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.780385
+[2023.12.08-11.49.15:679][348]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.770334
+[2023.12.08-11.49.15:691][349]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.759338
+[2023.12.08-11.49.15:703][350]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.749418
+[2023.12.08-11.49.15:715][351]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.737303
+[2023.12.08-11.49.15:725][352]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.724385
+[2023.12.08-11.49.15:736][353]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.713457
+[2023.12.08-11.49.15:747][354]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.703067
+[2023.12.08-11.49.15:758][355]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.692341
+[2023.12.08-11.49.15:770][356]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.680662
+[2023.12.08-11.49.15:780][357]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.670421
+[2023.12.08-11.49.15:791][358]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.658623
+[2023.12.08-11.49.15:802][359]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.648166
+[2023.12.08-11.49.15:813][360]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.637835
+[2023.12.08-11.49.15:824][361]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.626957
+[2023.12.08-11.49.15:835][362]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.61474
+[2023.12.08-11.49.15:848][363]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.60441
+[2023.12.08-11.49.15:862][364]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.591761
+[2023.12.08-11.49.15:873][365]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.579744
+[2023.12.08-11.49.15:885][366]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.567224
+[2023.12.08-11.49.15:896][367]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.55559
+[2023.12.08-11.49.15:908][368]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.54329
+[2023.12.08-11.49.15:919][369]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.531566
+[2023.12.08-11.49.15:932][370]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.519828
+[2023.12.08-11.49.15:945][371]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.507297
+[2023.12.08-11.49.15:956][372]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.494499
+[2023.12.08-11.49.15:968][373]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.484235
+[2023.12.08-11.49.15:981][374]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.472963
+[2023.12.08-11.49.15:993][375]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.461364
+[2023.12.08-11.49.16:006][376]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.448128
+[2023.12.08-11.49.16:016][377]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.43583
+[2023.12.08-11.49.16:030][378]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.422695
+[2023.12.08-11.49.16:041][379]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.411899
+[2023.12.08-11.49.16:051][380]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.398359
+[2023.12.08-11.49.16:063][381]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.387209
+[2023.12.08-11.49.16:075][382]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.376741
+[2023.12.08-11.49.16:085][383]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.364963
+[2023.12.08-11.49.16:097][384]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.353147
+[2023.12.08-11.49.16:108][385]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.342511
+[2023.12.08-11.49.16:119][386]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.33108
+[2023.12.08-11.49.16:131][387]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.320342
+[2023.12.08-11.49.16:144][388]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.308921
+[2023.12.08-11.49.16:155][389]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.296589
+[2023.12.08-11.49.16:166][390]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.284915
+[2023.12.08-11.49.16:177][391]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.273095
+[2023.12.08-11.49.16:186][392]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.262936
+[2023.12.08-11.49.16:196][393]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.25244
+[2023.12.08-11.49.16:205][394]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.24264
+[2023.12.08-11.49.16:215][395]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.233285
+[2023.12.08-11.49.16:225][396]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.222809
+[2023.12.08-11.49.16:236][397]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.212413
+[2023.12.08-11.49.16:246][398]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.202688
+[2023.12.08-11.49.16:258][399]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.191936
+[2023.12.08-11.49.16:267][400]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.181184
+[2023.12.08-11.49.16:279][401]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.170556
+[2023.12.08-11.49.16:290][402]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.159936
+[2023.12.08-11.49.16:300][403]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.14811
+[2023.12.08-11.49.16:311][404]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.138039
+[2023.12.08-11.49.16:320][405]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.127808
+[2023.12.08-11.49.16:331][406]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.117747
+[2023.12.08-11.49.16:341][407]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.10748
+[2023.12.08-11.49.16:351][408]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.097529
+[2023.12.08-11.49.16:362][409]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.087082
+[2023.12.08-11.49.16:372][410]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.076583
+[2023.12.08-11.49.16:382][411]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.066833
+[2023.12.08-11.49.16:393][412]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.056027
+[2023.12.08-11.49.16:403][413]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.045676
+[2023.12.08-11.49.16:413][414]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.035647
+[2023.12.08-11.49.16:423][415]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.025209
+[2023.12.08-11.49.16:434][416]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.015179
+[2023.12.08-11.49.16:444][417]LogBlueprintUserMessages: [WB_GameUI_C_0] 47.005028
+[2023.12.08-11.49.16:454][418]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.994327
+[2023.12.08-11.49.16:465][419]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.983981
+[2023.12.08-11.49.16:475][420]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.973619
+[2023.12.08-11.49.16:486][421]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.963787
+[2023.12.08-11.49.16:496][422]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.952888
+[2023.12.08-11.49.16:506][423]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.9427
+[2023.12.08-11.49.16:516][424]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.9329
+[2023.12.08-11.49.16:527][425]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.922065
+[2023.12.08-11.49.16:538][426]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.911727
+[2023.12.08-11.49.16:547][427]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.901757
+[2023.12.08-11.49.16:556][428]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.891425
+[2023.12.08-11.49.16:566][429]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.881915
+[2023.12.08-11.49.16:576][430]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.871692
+[2023.12.08-11.49.16:587][431]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.862306
+[2023.12.08-11.49.16:598][432]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.85192
+[2023.12.08-11.49.16:609][433]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.841637
+[2023.12.08-11.49.16:618][434]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.829996
+[2023.12.08-11.49.16:629][435]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.819683
+[2023.12.08-11.49.16:638][436]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.809856
+[2023.12.08-11.49.16:649][437]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.800141
+[2023.12.08-11.49.16:659][438]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.790208
+[2023.12.08-11.49.16:669][439]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.780123
+[2023.12.08-11.49.16:679][440]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.770059
+[2023.12.08-11.49.16:689][441]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.759849
+[2023.12.08-11.49.16:698][442]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.749915
+[2023.12.08-11.49.16:708][443]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.740095
+[2023.12.08-11.49.16:718][444]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.730603
+[2023.12.08-11.49.16:728][445]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.720606
+[2023.12.08-11.49.16:738][446]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.710529
+[2023.12.08-11.49.16:748][447]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.700623
+[2023.12.08-11.49.16:759][448]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.69037
+[2023.12.08-11.49.16:769][449]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.680607
+[2023.12.08-11.49.16:780][450]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.670195
+[2023.12.08-11.49.16:790][451]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.659826
+[2023.12.08-11.49.16:803][452]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.649495
+[2023.12.08-11.49.16:816][453]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.639206
+[2023.12.08-11.49.16:826][454]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.625567
+[2023.12.08-11.49.16:835][455]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.613383
+[2023.12.08-11.49.16:846][456]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.602904
+[2023.12.08-11.49.16:855][457]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.592667
+[2023.12.08-11.49.16:867][458]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.582629
+[2023.12.08-11.49.16:880][459]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.572779
+[2023.12.08-11.49.16:890][460]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.560027
+[2023.12.08-11.49.16:899][461]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.547819
+[2023.12.08-11.49.16:911][462]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.538364
+[2023.12.08-11.49.16:921][463]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.528911
+[2023.12.08-11.49.16:933][464]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.517282
+[2023.12.08-11.49.16:943][465]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.507135
+[2023.12.08-11.49.16:955][466]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.4957
+[2023.12.08-11.49.16:965][467]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.485427
+[2023.12.08-11.49.16:977][468]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.473674
+[2023.12.08-11.49.16:989][469]LogBlueprintUserMessages: [WB_GameUI_C_0] 46.463353
+[2023.12.08-11.49.17:041][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.08-11.49.17:041][470]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.08-11.49.17:042][470]LogSlate: Window 'GameJam_Project Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.12.08-11.49.17:050][470]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.08-11.49.17:273][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.08-11.49.17:274][470]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.12.08-11.49.17:276][470]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.08-11.49.17:282][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.08-11.49.17:311][470]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.12.08-11.49.17:311][470]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.12.08-11.49.17:312][470]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.12.08-11.49.17:332][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.12.08-11.49.17:367][470]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.17:390][471]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.12.08-11.49.17:430][471]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-11.49.25:082][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.12.08-11.49.25:085][632]LogStall: Shutdown...
+[2023.12.08-11.49.25:090][632]LogStall: Shutdown complete.
+[2023.12.08-11.49.25:125][632]LogSlate: Window 'GameJam_Project - Unreal Editor' being destroyed
+[2023.12.08-11.49.25:228][633]Cmd: QUIT_EDITOR
+[2023.12.08-11.49.25:228][633]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.12.08-11.49.25:235][633]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.12.08-11.49.25:235][633]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.12.08-11.49.25:235][633]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.12.08-11.49.25:464][633]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.08-11.49.25:465][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.08-11.49.25:467][633]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.12.08-11.49.25:467][633]LogStylusInput: Shutting down StylusInput subsystem.
+[2023.12.08-11.49.25:467][633]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.12.08-11.49.25:845][633]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.12.08-11.49.25:845][633]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.12.08-11.49.25:845][633]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2023.12.08-11.49.25:845][633]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2023.12.08-11.49.25:845][633]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.12.08-11.49.25:846][633]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.12.08-11.49.25:850][633]LogAudio: Display: Audio Device Manager Shutdown
+[2023.12.08-11.49.25:854][633]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.12.08-11.49.25:854][633]LogExit: Preparing to exit.
+[2023.12.08-11.49.25:908][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.25:912][633]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.08-11.49.26:703][633]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.12.08-11.49.26:706][633]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.12.08-11.49.26:786][633]LogExit: Editor shut down
+[2023.12.08-11.49.26:787][633]LogExit: Transaction tracking system shut down
+[2023.12.08-11.49.26:799][633]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2023.12.08-11.49.26:896][633]LogExit: Object subsystem successfully closed.
+[2023.12.08-11.49.26:902][633]LogShaderCompilers: Display: ================================================
+[2023.12.08-11.49.26:902][633]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.08-11.49.26:902][633]LogShaderCompilers: Display: Total job queries 12, among them cache hits 2 (16.67%)
+[2023.12.08-11.49.26:902][633]LogShaderCompilers: Display: Tracking 10 distinct input hashes that result in 10 distinct outputs (100.00%)
+[2023.12.08-11.49.26:902][633]LogShaderCompilers: Display: RAM used: 201.39 KiB of 1.60 GiB budget. Usage: 0.01%
+[2023.12.08-11.49.26:902][633]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.08-11.49.26:902][633]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.12.08-11.49.26:902][633]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.12.08-11.49.26:902][633]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.12.08-11.49.26:902][633]LogShaderCompilers: Display: ================================================
+[2023.12.08-11.49.26:930][633]LogShaderCompilers: Display: Shaders left to compile 0
+[2023.12.08-11.49.26:946][633]LogVirtualization: UE::Virtualization was shutdown
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (1017)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module Voice (1015)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1013)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module SubobjectEditor (1011)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module SceneOutliner (1009)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module AddContentDialog (1007)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module WidgetCarousel (1006)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module StatusBar (1003)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (1001)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (999)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module StatsViewer (997)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (995)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module AutomationWorker (993)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module PlanarCut (991)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module FractureEngine (989)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module CharacterAI (987)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module SmartSnapping (985)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module TextureAlignMode (983)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module BspMode (981)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module GeometryMode (979)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module EngineAssetDefinitions (977)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (975)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (973)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (971)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (969)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module WebMMedia (967)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (965)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (963)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (961)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (959)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (957)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (955)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (953)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (951)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (949)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (947)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (945)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (943)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (941)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module WaveTableEditor (939)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (937)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module GooglePADEditor (935)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (933)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module SequenceRecorder (932)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (929)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module IKRigEditor (927)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module ControlRigEditor (925)
+[2023.12.08-11.49.26:980][633]LogModuleManager: Shutting down and abandoning module SessionServices (923)
+[2023.12.08-11.49.26:981][633]LogModuleManager: Shutting down and abandoning module MeshPaint (921)
+[2023.12.08-11.49.26:981][633]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (919)
+[2023.12.08-11.49.26:981][633]LogModuleManager: Shutting down and abandoning module PlacementMode (918)
+[2023.12.08-11.49.26:981][633]LogModuleManager: Shutting down and abandoning module FoliageEdit (915)
+[2023.12.08-11.49.26:982][633]LogModuleManager: Shutting down and abandoning module LandscapeEditor (913)
+[2023.12.08-11.49.26:982][633]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (911)
+[2023.12.08-11.49.26:982][633]LogModuleManager: Shutting down and abandoning module ActorPickerMode (909)
+[2023.12.08-11.49.26:982][633]LogModuleManager: Shutting down and abandoning module ViewportSnapping (907)
+[2023.12.08-11.49.26:982][633]LogModuleManager: Shutting down and abandoning module ViewportInteraction (905)
+[2023.12.08-11.49.26:982][633]LogModuleManager: Shutting down and abandoning module ClothPainter (903)
+[2023.12.08-11.49.26:982][633]LogModuleManager: Shutting down and abandoning module LogVisualizer (901)
+[2023.12.08-11.49.26:982][633]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (899)
+[2023.12.08-11.49.26:982][633]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (897)
+[2023.12.08-11.49.26:982][633]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (896)
+[2023.12.08-11.49.26:982][633]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (894)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (891)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module HoloLensPlatformEditor (889)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (887)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (885)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module RenderResourceViewer (883)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module GameplayDebuggerEditor (881)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module AnimationSettings (879)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (877)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module CSVtoSVG (875)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (873)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module EditorConfig (871)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module EditorFramework (869)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (867)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module TraceInsights (865)
+[2023.12.08-11.49.27:631][633]MemoryProfiler: Shutdown
+[2023.12.08-11.49.27:631][633]NetworkingProfiler: Shutdown
+[2023.12.08-11.49.27:631][633]LoadingProfiler: Shutdown
+[2023.12.08-11.49.27:631][633]TimingProfiler: Shutdown
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module TraceServices (864)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module TraceAnalysis (863)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (859)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (858)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module InputBindingEditor (855)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module MergeActors (853)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (851)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module LocalizationService (850)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module HardwareTargeting (847)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (845)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module UndoHistory (843)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module XmlParser (841)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module Blutility (839)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (837)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (836)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (833)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (832)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module SettingsEditor (829)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module ProjectLauncher (827)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module SessionFrontend (825)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module ProfilerClient (823)
+[2023.12.08-11.49.27:631][633]LogModuleManager: Shutting down and abandoning module DeviceManager (821)
+[2023.12.08-11.49.27:632][633]LogModuleManager: Shutting down and abandoning module AutomationController (819)
+[2023.12.08-11.49.27:632][633]LogModuleManager: Shutting down and abandoning module AutomationWindow (817)
+[2023.12.08-11.49.27:632][633]LogModuleManager: Shutting down and abandoning module Layers (815)
+[2023.12.08-11.49.27:632][633]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (813)
+[2023.12.08-11.49.27:632][633]LogModuleManager: Shutting down and abandoning module DetailCustomizations (811)
+[2023.12.08-11.49.27:632][633]LogModuleManager: Shutting down and abandoning module PackagesDialog (809)
+[2023.12.08-11.49.27:632][633]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (807)
+[2023.12.08-11.49.27:632][633]LogModuleManager: Shutting down and abandoning module Persona (805)
+[2023.12.08-11.49.27:632][633]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (804)
+[2023.12.08-11.49.27:632][633]LogModuleManager: Shutting down and abandoning module Kismet (801)
+[2023.12.08-11.49.27:640][633]LogModuleManager: Shutting down and abandoning module KismetWidgets (800)
+[2023.12.08-11.49.27:640][633]LogModuleManager: Shutting down and abandoning module GraphEditor (797)
+[2023.12.08-11.49.27:640][633]LogModuleManager: Shutting down and abandoning module StructViewer (795)
+[2023.12.08-11.49.27:640][633]LogModuleManager: Shutting down and abandoning module ClassViewer (793)
+[2023.12.08-11.49.27:640][633]LogModuleManager: Shutting down and abandoning module NaniteTools (791)
+[2023.12.08-11.49.27:640][633]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (789)
+[2023.12.08-11.49.27:640][633]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (787)
+[2023.12.08-11.49.27:640][633]LogModuleManager: Shutting down and abandoning module SourceControlWindows (785)
+[2023.12.08-11.49.27:640][633]LogModuleManager: Shutting down and abandoning module OutputLog (783)
+[2023.12.08-11.49.27:641][633]LogModuleManager: Shutting down and abandoning module Documentation (781)
+[2023.12.08-11.49.27:641][633]LogModuleManager: Shutting down and abandoning module LiveCoding (779)
+[2023.12.08-11.49.27:653][633]LogModuleManager: Shutting down and abandoning module SparseVolumeTexture (777)
+[2023.12.08-11.49.27:653][633]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (775)
+[2023.12.08-11.49.27:653][633]LogModuleManager: Shutting down and abandoning module MovieScene (773)
+[2023.12.08-11.49.27:653][633]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (771)
+[2023.12.08-11.49.27:653][633]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (769)
+[2023.12.08-11.49.27:653][633]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (767)
+[2023.12.08-11.49.27:653][633]LogModuleManager: Shutting down and abandoning module AudioMixer (766)
+[2023.12.08-11.49.27:653][633]LogModuleManager: Shutting down and abandoning module AudioMixerCore (765)
+[2023.12.08-11.49.27:653][633]LogModuleManager: Shutting down and abandoning module LauncherPlatform (761)
+[2023.12.08-11.49.27:654][633]LogModuleManager: Shutting down and abandoning module AnalyticsET (759)
+[2023.12.08-11.49.27:654][633]LogModuleManager: Shutting down and abandoning module PortalServices (757)
+[2023.12.08-11.49.27:654][633]LogModuleManager: Shutting down and abandoning module PortalRpc (755)
+[2023.12.08-11.49.27:654][633]LogModuleManager: Shutting down and abandoning module MessagingRpc (753)
+[2023.12.08-11.49.27:654][633]LogModuleManager: Shutting down and abandoning module AIModule (751)
+[2023.12.08-11.49.27:654][633]LogModuleManager: Shutting down and abandoning module GameplayDebugger (750)
+[2023.12.08-11.49.27:654][633]LogModuleManager: Shutting down and abandoning module AITestSuite (748)
+[2023.12.08-11.49.27:654][633]LogModuleManager: Shutting down and abandoning module NavigationSystem (746)
+[2023.12.08-11.49.27:654][633]LogModuleManager: Shutting down and abandoning module DataLayerEditor (743)
+[2023.12.08-11.49.27:654][633]LogModuleManager: Shutting down and abandoning module EditorWidgets (742)
+[2023.12.08-11.49.27:654][633]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (739)
+[2023.12.08-11.49.27:654][633]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (737)
+[2023.12.08-11.49.27:654][633]LogModuleManager: Shutting down and abandoning module TypedElementFramework (735)
+[2023.12.08-11.49.27:654][633]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (733)
+[2023.12.08-11.49.27:654][633]LogModuleManager: Shutting down and abandoning module ProfilerService (731)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module ProfileVisualizer (729)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (727)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module CacheTrackRecorder (725)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (723)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (721)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module TakesCore (719)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module MegascansPlugin (717)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module Bridge (715)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (713)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module LightMixer (711)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (709)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (707)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (705)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module CollectionManager (704)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module SkeletalMeshModelingTools (701)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (700)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (697)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module UVEditorTools (695)
+[2023.12.08-11.49.27:732][633]LogModuleManager: Shutting down and abandoning module UVEditor (693)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module PresetAsset (691)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (689)
+[2023.12.08-11.49.27:733][633]LogOpenImageDenoise: OIDN shutting down
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (687)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (685)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (683)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (681)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module MeshLODToolset (679)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (677)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (675)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (673)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (671)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (669)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (668)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (666)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (663)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module DataflowNodes (661)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module DataflowEnginePlugin (659)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module DataflowEditor (657)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (655)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (653)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ChaosNiagara (651)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module FractureEditor (649)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (647)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module BackChannel (645)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (643)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module AutomationUtils (641)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (639)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (637)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module Paper2DEditor (635)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (633)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module StylusInput (631)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (629)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module PluginBrowser (627)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (625)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (623)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (621)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (619)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GLTFImporter (617)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GLTFCore (615)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (613)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module EditorDebugTools (611)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module CurveEditorTools (609)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (607)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module CryptoKeys (605)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ChangelistReview (603)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (601)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (599)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (597)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module UObjectPlugin (595)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (593)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (591)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module PluginUtils (589)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GitSourceControl (587)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module DumpGPUServices (585)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (583)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (581)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module VariantManager (579)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (578)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (575)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (573)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InterchangeTests (571)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (569)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (567)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module MediaPlate (565)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ImgMedia (563)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module MediaCompositing (561)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (557)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InterchangeResultsBrowser (555)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (553)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InterchangeEditor (551)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module TemplateSequence (549)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (547)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (545)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (543)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InterchangePipelines (541)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InterchangeExport (539)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InterchangeMessages (537)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InterchangeImport (535)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (533)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InterchangeNodes (531)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (529)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module SequencerScripting (527)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module AlembicImporter (525)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module AlembicLibrary (524)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module SynthesisEditor (521)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ResonanceAudio (519)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (517)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (515)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module DynamicMesh (513)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (511)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (509)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ModelingOperators (507)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (505)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ModelingComponents (503)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GeometryFramework (502)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (499)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module MeshModelingTools (497)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InputDebuggingEditor (495)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InputDebugging (493)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GooglePAD (491)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (489)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GeometryCache (487)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (485)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (483)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (481)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module AudioCapture (479)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (478)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module AssetTags (475)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (473)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module AndroidPermission (471)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (469)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module AppleImageUtils (467)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (465)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (463)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (461)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module TakeSequencer (459)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module TakeMovieScene (457)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (455)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module ControlRigSpline (453)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (451)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (449)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module TraceUtilities (447)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (445)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (443)
+[2023.12.08-11.49.27:733][633]LogModuleManager: Shutting down and abandoning module InputEditor (441)
+[2023.12.08-11.49.27:734][633]LogModuleManager: Shutting down and abandoning module BlueprintGraph (440)
+[2023.12.08-11.49.27:734][633]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (437)
+[2023.12.08-11.49.27:734][633]LogModuleManager: Shutting down and abandoning module PBIK (435)
+[2023.12.08-11.49.27:734][633]LogModuleManager: Shutting down and abandoning module FullBodyIK (433)
+[2023.12.08-11.49.27:734][633]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (431)
+[2023.12.08-11.49.27:734][633]LogModuleManager: Shutting down and abandoning module TakeRecorder (430)
+[2023.12.08-11.49.27:734][633]LogModuleManager: Shutting down and abandoning module ChaosCaching (427)
+[2023.12.08-11.49.27:734][633]LogModuleManager: Shutting down and abandoning module Paper2D (425)
+[2023.12.08-11.49.27:734][633]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (423)
+[2023.12.08-11.49.27:734][633]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (421)
+[2023.12.08-11.49.27:734][633]LogModuleManager: Shutting down and abandoning module FacialAnimation (419)
+[2023.12.08-11.49.27:734][633]LogModuleManager: Shutting down and abandoning module DataValidation (417)
+[2023.12.08-11.49.27:734][633]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (415)
+[2023.12.08-11.49.27:734][633]LogModuleManager: Shutting down and abandoning module LevelEditor (414)
+[2023.12.08-11.49.27:735][633]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (413)
+[2023.12.08-11.49.27:735][633]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (411)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module MainFrame (409)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module HotReload (408)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module TreeMap (404)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (401)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (399)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module AnimationSharing (397)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (395)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (393)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module GameplayCameras (391)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module ActorSequence (389)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module Synthesis (387)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module SoundFields (385)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module SignificanceManager (383)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (381)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module MetasoundEditor (379)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module AudioWidgets (378)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (377)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (373)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module MetasoundEngine (371)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module WaveTable (370)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (368)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (365)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (363)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (361)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (359)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (357)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (355)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (353)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (352)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (349)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module CableComponent (347)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (345)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module Niagara (343)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module SignalProcessing (342)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module NiagaraEditor (340)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module ContentBrowser (339)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module ToolMenus (338)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module ContentBrowserData (336)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module NiagaraCore (331)
+[2023.12.08-11.49.27:736][633]LogModuleManager: Shutting down and abandoning module TcpMessaging (329)
+[2023.12.08-11.49.27:837][633]LogModuleManager: Shutting down and abandoning module UdpMessaging (327)
+[2023.12.08-11.49.27:938][633]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (325)
+[2023.12.08-11.49.27:938][633]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (323)
+[2023.12.08-11.49.27:938][633]LogModuleManager: Shutting down and abandoning module IKRig (321)
+[2023.12.08-11.49.27:938][633]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (319)
+[2023.12.08-11.49.27:938][633]LogModuleManager: Shutting down and abandoning module ControlRig (317)
+[2023.12.08-11.49.27:938][633]LogModuleManager: Shutting down and abandoning module Constraints (316)
+[2023.12.08-11.49.27:938][633]LogModuleManager: Shutting down and abandoning module LevelSequence (314)
+[2023.12.08-11.49.27:938][633]LogModuleManager: Shutting down and abandoning module AnimationData (311)
+[2023.12.08-11.49.27:938][633]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (309)
+[2023.12.08-11.49.27:938][633]LogModuleManager: Shutting down and abandoning module EnhancedInput (307)
+[2023.12.08-11.49.27:938][633]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (305)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (303)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module AndroidFileServer (301)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (299)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module PacketHandler (297)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (295)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module AnimGraph (293)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module TimeManagement (291)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module AnimationDataController (289)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (287)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (285)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module MediaAssets (283)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module Overlay (281)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module OverlayEditor (280)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module VREditor (277)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module StringTableEditor (275)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (273)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (271)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module FunctionalTesting (269)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (267)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (266)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module UMG (263)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module UMGEditor (262)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module EditorStyle (257)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module SlateReflector (255)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module Slate (253)
+[2023.12.08-11.49.27:941][633]LogModuleManager: Shutting down and abandoning module SlateCore (251)
+[2023.12.08-11.49.27:942][633]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (249)
+[2023.12.08-11.49.27:942][633]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (247)
+[2023.12.08-11.49.27:942][633]LogModuleManager: Shutting down and abandoning module UnrealEd (245)
+[2023.12.08-11.49.27:942][633]LogModuleManager: Shutting down and abandoning module MRMesh (243)
+[2023.12.08-11.49.27:942][633]LogModuleManager: Shutting down and abandoning module Messaging (241)
+[2023.12.08-11.49.27:942][633]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (239)
+[2023.12.08-11.49.27:942][633]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (237)
+[2023.12.08-11.49.27:942][633]LogModuleManager: Shutting down and abandoning module Networking (235)
+[2023.12.08-11.49.27:942][633]LogModuleManager: Shutting down and abandoning module Core (233)
+[2023.12.08-11.49.27:942][633]LogModuleManager: Shutting down and abandoning module AssetDefinition (231)
+[2023.12.08-11.49.27:942][633]LogModuleManager: Shutting down and abandoning module MovieSceneTools (229)
+[2023.12.08-11.49.27:942][633]LogModuleManager: Shutting down and abandoning module CurveEditor (228)
+[2023.12.08-11.49.27:943][633]LogModuleManager: Shutting down and abandoning module Sequencer (226)
+[2023.12.08-11.49.27:943][633]LogModuleManager: Shutting down and abandoning module KismetCompiler (223)
+[2023.12.08-11.49.27:943][633]LogModuleManager: Shutting down and abandoning module MeshBuilder (221)
+[2023.12.08-11.49.27:943][633]LogModuleManager: Shutting down and abandoning module NaniteBuilder (219)
+[2023.12.08-11.49.27:943][633]LogModuleManager: Shutting down and abandoning module MeshUtilities (217)
+[2023.12.08-11.49.27:943][633]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (216)
+[2023.12.08-11.49.27:943][633]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (215)
+[2023.12.08-11.49.27:943][633]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (214)
+[2023.12.08-11.49.27:943][633]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (212)
+[2023.12.08-11.49.27:943][633]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (210)
+[2023.12.08-11.49.27:943][633]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (208)
+[2023.12.08-11.49.27:943][633]LogModuleManager: Shutting down and abandoning module MaterialBaking (204)
+[2023.12.08-11.49.27:943][633]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (201)
+[2023.12.08-11.49.27:954][633]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (197)
+[2023.12.08-11.49.27:954][633]LogModuleManager: Shutting down and abandoning module ShaderPreprocessor (195)
+[2023.12.08-11.49.27:954][633]LogModuleManager: Shutting down and abandoning module DerivedDataCache (193)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module TargetPlatform (191)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (190)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (188)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (186)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (184)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (182)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module AudioFormatBink (180)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (177)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (175)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (173)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (171)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (169)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (167)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (165)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (163)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module HoloLensTargetPlatform (161)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (159)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module TextureFormat (157)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module ImageWrapper (156)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (154)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (152)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (150)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (148)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (146)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (144)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module TurnkeySupport (141)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module InputCore (138)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module Settings (136)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (134)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (132)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (131)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module Chaos (128)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module GeometryCore (127)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (124)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (123)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module AVEncoder (122)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module D3D12RHI (118)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module ChaosCloth (116)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module PixWinPlugin (114)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module RenderDocPlugin (112)
+[2023.12.08-11.49.27:957][633]RenderDocPlugin: plugin has been unloaded.
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module GLTFExporter (110)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module VariantManagerContent (108)
+[2023.12.08-11.49.27:957][633]LogModuleManager: Shutting down and abandoning module DatasmithContent (106)
+[2023.12.08-11.49.27:958][633]LogModuleManager: Shutting down and abandoning module WmfMedia (104)
+[2023.12.08-11.49.27:961][633]LogModuleManager: Shutting down and abandoning module Media (103)
+[2023.12.08-11.49.27:963][633]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (100)
+[2023.12.08-11.49.27:963][633]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (98)
+[2023.12.08-11.49.27:963][633]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (96)
+[2023.12.08-11.49.27:963][633]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (94)
+[2023.12.08-11.49.27:964][633]LogModuleManager: Shutting down and abandoning module XMPP (89)
+[2023.12.08-11.49.27:964][633]LogModuleManager: Shutting down and abandoning module WebSockets (88)
+[2023.12.08-11.49.27:984][633]LogModuleManager: Shutting down and abandoning module HTTP (85)
+[2023.12.08-11.49.27:984][633]LogHttp: Warning: [FHttpManager::Flush] FlushReason was Shutdown. Unbinding delegates for 1 outstanding Http Requests:
+[2023.12.08-11.49.27:984][633]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B14F9991D-479D-03CE-9D3A-0882111991D1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=2d3f2c2a427a7d0b41e20f8b62867cec%7C0da8c6a2ec0049b19cf4ef667696ea7c%7Cad9d6edf-c513-4b46-b1e1-0688671ea4c2&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2023.12.08-11.49.28:000][633]LogModuleManager: Shutting down and abandoning module SSL (84)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (80)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (78)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (76)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (72)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (70)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module ChunkDownloader (68)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (66)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module NiagaraShader (64)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module AISupportModule (62)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module DesktopPlatform (60)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (58)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (56)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (54)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module PlatformCrypto (52)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (50)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (48)
+[2023.12.08-11.49.28:001][633]LogModuleManager: Shutting down and abandoning module SourceControl (47)
+[2023.12.08-11.49.28:002][633]LogModuleManager: Shutting down and abandoning module XGEController (44)
+[2023.12.08-11.49.28:002][633]LogXGEController: Cleaning working directory: C:/Users/max_l/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2023.12.08-11.49.28:002][633]LogModuleManager: Shutting down and abandoning module FastBuildController (42)
+[2023.12.08-11.49.28:002][633]LogModuleManager: Shutting down and abandoning module AnimationModifiers (40)
+[2023.12.08-11.49.28:002][633]LogModuleManager: Shutting down and abandoning module AudioEditor (38)
+[2023.12.08-11.49.28:002][633]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2023.12.08-11.49.28:002][633]LogModuleManager: Shutting down and abandoning module Virtualization (34)
+[2023.12.08-11.49.28:002][633]LogModuleManager: Shutting down and abandoning module MessageLog (33)
+[2023.12.08-11.49.28:002][633]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2023.12.08-11.49.28:002][633]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2023.12.08-11.49.28:002][633]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2023.12.08-11.49.28:002][633]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2023.12.08-11.49.28:003][633]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2023.12.08-11.49.28:003][633]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2023.12.08-11.49.28:003][633]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2023.12.08-11.49.28:003][633]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2023.12.08-11.49.28:003][633]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2023.12.08-11.49.28:003][633]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2023.12.08-11.49.28:003][633]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2023.12.08-11.49.28:003][633]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2023.12.08-11.49.28:003][633]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2023.12.08-11.49.28:003][633]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2023.12.08-11.49.28:003][633]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2023.12.08-11.49.28:162][633]LogD3D12RHI: ~FD3D12DynamicRHI
+[2023.12.08-11.49.28:190][633]LogExit: Exiting.
+[2023.12.08-11.49.28:224][633]Log file closed, 12/08/23 11:49:28
